@@ -1,0 +1,101 @@
+Programming Basics Practice Problems
+
+1. Print the following on the console:
+- Hello World!
+- 77777
+- the result of 3 + 4
+- Fundamentals of Programming is awesome!
+- 7 / 3
+- a list of car brands
+- a person object, with a first & last name and age 
+
+2. Write a program that prompts the user for five floating-point values and displays their average
+
+3. Write a program that prompts the user to say a few welcoming words, then displays that message e.g. The user said: 'Welcome...'
+
+4. Write a program that allows the user to enter two integer values, and displays the results when each of the following arithmetic operators are applied. For example, if the user enters the values 7 and 5, the output would be: 
+- 7  +  5  =  12 
+- 7  -  5  =  2  
+- 7 * 5  =  35 
+- 7 / 5  =  1.40 
+- 7 // 5  =  1 
+- 7 % 5  =  2 
+- 7 ** 5  =  16,807  
+
+6. Write a program for a shop that only has 2 types of products: pads and pens; the program should take input for the following: the number of pads in stock, the number of pens in stock, the price for a pad, the price for a pen. Then use the print function to produce similar formatted output:
+******************* SHOP ******************
+How many pads? 344
+How many pens? 700
+What’s the price of a pad? 0.90
+What’s the price of a pen? 0.25
+The shop has 344 pads, each pad costing 0.90 euro.
+The shop has 700 pens, each pen costing 0.25 euro.
+The total value of pads is 309.60 euro.
+The total value of pens is 175.00 euro.
+The total value of the entire stock is 484.60 euro.
+
+7. Write a program that converts weight given in pounds to weight given kilograms; your program must use user input. (Conversion formula: weight_in_kg = 2.2 * weight_in_pounds). 
+
+8. Write a program that prompts the user to take 2 inputs and then output whether it is true or false that the first input comes before the second input in lexicographical order; it also should output whether it is true or false that the first input contains more characters than the second input. 
+
+9. Write a program that prompts the user to take 3 integers and then outputs whether it is true or false that each integer is between 1 and 10.
+
+10. Write a program that prompts the user to enter his/her name, takes input from the user and then prints a message back “Hello [whatever the name]!” only if the name inputted contains the character ‘a’ or the character ‘c’
+
+11. Write another program that takes 3 integers from the user and displays the value of the  sum only if the sum is positive; if the sum is negative, then it should display “the sum is negative”. 
+
+12. Write a program that reads in 3 floating­point numbers and (using 2 if statements) identifies the largest of the three inputs and then prints it. For example, if the user enters 4, 9.0, and 2.5, the program should output “The largest number is 9.0”. 
+
+13. Write a program that allows the user to input a temperature and also to input either the temperature should be converted to Celsius or to Fahrenheit degrees; the program should then output the temperature either in Celsius or in Fahrenheit using one of the conversion formulas: celsius_degrees = (fahrenheit_degrees – 32) * 5 / 9 or fahrenheit_degrees = (9 / 5 * celsius_degrees) + 32. 
+
+14. Write a program for a motor insurance company which offers three categories of insurance based on the age of the applicant. Category A for those in the age group 18-26, category B for those in the age group 27 - 60 and category C for those over 60. The program should allow user to enter age and print the relevant insurance category. The program should also print the message invalid age if the age input is less than 18.
+
+15. Write a program that allows a user to input the daily pay rate of an employee and the number of days worked, then it calculates the employee’s gross pay for the week. If the weekly pay is smaller than 500.0, then it should print “You are underpaid”, if the weekly pay is between 500.0 and 700.0 inclusively, the program should print “Your salary is ok”. If the weekly pay is over 700.0, it should print “Your salary is quite decent”. The program should also print “Goodbye user!!”, irrespective of the gross pay for the week. 
+
+16. Write a program that prompts the user to enter a month (using integers between 1 and 12); the program should determine and output the number of days in a given month; the program should also prompt the user to enter the year when the month is 2 (February) so that it can display whether the number of days is 28 or 29 (a leap year is every year divisible by four except for years which are both divisible by 100 and not divisible by 400; for example, the year 2000 is a leap year, but the years 1700, 1800, and 1900 were not); the program should also display an appropriate message if the user entered an invalid month. 
+
+17. Write a program that reads in float values repeatedly from the user (terminates when ‘no more’ is entered) and then outputs the largest of them all.
+
+18. Write 2 programs to compute and display: 
+a. The sum of all even numbers between 2 and 100 (inclusive). 
+b. The sum of all odd numbers between a and b (inclusive) where a and b are odd integers inputted by the user, and a is always smaller than b. 
+
+19. Write a program to print a triangle of asterisks as follows; you need to write 2 implementations: one using a single loop, the other using nested loops. 
+
+*  
+*  * 
+*  *  *
+*  *  *  *
+
+20. Write a program that defines 3 functions: the first function returns the maximum value among 2 integer values, the second one prints 1 row of 25 asterisks, and the third one takes in a String representing a name and prints “Hello name, nice to meet you”. Then call the 3 functions at least twice each.
+
+21. Define a function that takes 2 positive integers (assume that the first is always >= than the second) and returns how many numbers between 1 and the first one are divisible by the second one. Call this function several times.
+
+22. Write a program that allows a user to input repeatedly a series of integer values and then displays their total and their product; for each of these implement separate functions.
+
+23. Write a program that implements a metric-to-imperial and viceversa calculator for weight and distance (for simplicity reasons you can consider only pounds, kgs, miles and kms). You need the formulas:
+weight_in_kg = 2.2 * weight_in_pounds; weight_in_pounds= weight_in_kg/2.2
+dist_in_km = dist_in_miles/0.621; dist_in_miles = dist_in_km * 0.621
+
+24. Write a module that defines the following functions; each function should have default values for each parameter:
+- To find and return the longest among 3 strings.
+- To find and print the string that comes first in alphabetical order among 3 strings.
+
+25.Write a module that defines 3 functions:
+- One that takes in a string and prints how many times ‘j’ and ‘k’ occur in that string.
+- One that takes in a string and returns the reversed version of that string.
+- One that takes in a string, replaces each occurrence of the letter ‘a’ with the letter ‘o’ and prints the new string.
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 

@@ -1,0 +1,21 @@
+HOW THE INTERNET WORKS
+
+- The internet is your machine/browser is making requests to a server and is getting responses back. The server is just another machine connected to the internet. The browser can be safari, chrome, etc. 
+- When you plug into the internet you get an ip address. A server is basically a box with an ip address. 
+- The reason your machine is not a server although it has an ip address is because it doesnt have server software running and installed. 
+
+1. You visit a web page, e.g. youtube.com
+2. The website shows up on the screen, but what is actually happening behind the scene.
+3. The website is stored on a server.
+4. Your browser is basically an interpreter that recieves source code and that source code can be stored on the server or genrated by the server. 
+5. The official address of each server is the ip address, we replace the domain name with the ip address when searching for websites because domain names are much more easier and human readable than ip addresses.
+6. When you enter a domain name, your browser contacts a DNS (domain name system server) which is basically like a phone book where each domain is maped to an ip address.
+7. The DNS Server then translates the domain into an ip address, this ip address is then given to the browser, then the browser can make a request to the server that has this ip address.
+8. Then the source code for the website is generated and the website is displayed. 
+
+- The part where you enter the URL e.g. youtube.com and you send it off to the internet, that is called a request. The browser makes a request for this page. 
+- A request is like a package of data. The URL is one part, another part would be the type of request. A request can include the data you want to send or can include no data. It can also include meta data or headers. 
+- When your browser sends the request to the server what you get back is called a response. This contains some meta data and also source code (html,css,js) that is displayed by the browser. 
+- All that data transfer is standardised. It is defined by the technology used which is HTTP(HyperText Transfer Protocol). HTTPS is the same just in an encrypted form. All modern websites use HTTPS, so all data is encrypted. 
+
+- On the server side because we are generating this page dynamically, which means there needs to be some code that runs. That is done with languages like node.js, php, python and backend frameworks like express.js, laravel, django

@@ -1,0 +1,69 @@
+
+>> What is Node.js
+- Node.js is a Javascript runtime built on Chrome's V8 Javascript engine. Basically Javascript running on the server.
+- A platform which allows us to run Javascript on a computer/server.
+- Read, delete and update files.
+- Easily communicate with a database. 
+- Very fast(runs on the V8 engine & uses non-blocking code).
+- Huge ecosystem of open source packages (npm).
+- Great for real-time services (like chats).
+- Used to build powerful, fast & scalable web applications.
+- Uses an event-driven, non-blocking I/O model.
+
+
+>> Non-blocking I/O 
+- Node.js works on a single thread using non-blocing I/O calls
+- Node.js supports tens of thousands concurrent connections.
+- Node.js optimizes throughput and scalability in web applications with many I/O operations.
+- This makes Node.js apps extremely fast and efficient.
+
+
+>> Event Loop
+- Single-threaded.
+- Supports concurrency via events and callbacks.
+- EventEmitter class is used to bind events and event listeners.
+
+
+>> The V8 Engine
+- Computers do not understand Javascript.
+- A Javascript engine takes Javascript, and converts it into something it does understand - machine code. 
+- Node.js is written in C++.
+- At the heart of Node.js is the V8 engine.
+- The V8 engine converts out JS into machine code.
+
+
+>> What Can We Build With Node.js?
+- REST API's & Backend Applications.
+- Real-Time Services (Chat, Games, etc).
+- CRUD Apps - Blogs, Content Management Systems, Social Applications.
+- Utilities & Tools.
+- Anything that is not CPU-intensive!
+
+
+>> NPM
+- Node.js Package Manager.
+- Used to install node programs/modules.
+- Easy to specify and link dependencies.
+- Modules get installed into the "node_modules" folder. 
+- All dependencies are listed in a "package.json" file.
+- NPM scripts can be created to run certain tasks such as run a server.
+
+
+>> Node Modules
+- Node Modules are 3rd party modules/packages installed via NPM.
+- You can alsi create custom modules (files).
+
+=> Popular Modules
+- Express: Web development framework
+- Connect: Extensible HTTP server framework
+- Socket.io: Server side component for websockets
+- Pug / Jade: Template engine inspired by HAML
+- Mongo / Mongoose: Wrappers to interact with MongoDB
+- Coffee-Script: CoffeeScript compiler
+- Redis: Redis client library
+
+
+>> package.json File
+- Goes in the root of your package/application
+- Tells npm how your package is structured and what to do to install it.
+- Can be set up manually or by using command 'npm init'

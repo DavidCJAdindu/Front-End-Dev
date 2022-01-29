@@ -1,0 +1,77 @@
+
+>> What is HTTP?
+- Stands for Hyper Text Transfer Protocol.
+- Responsible for communication between web servers & clients. 
+- Is the protocol of the web.
+- Used when loading pages, form submit, Ajax calls.
+- HTTP Requests / Responses
+
+
+>> HTTP is Stateless
+- Every request is completely independent, similar to transactions.
+- Programming, local storage, cookies, sessions are used to create enhanced user experiences.
+
+
+>> What is HTTPS
+- Stands for Hyper Text Transfer Protocol Secure.
+- Data sent is encrypted by SSL / TSA.
+- Install certificate on web host.
+ 
+
+>> HTTP Methods
+=> GET
+- Retrieves data from the server.
+
+=> POST
+- Submit data to the server.
+
+=> PUT
+- Update data already on the server.
+
+=> DELETE
+- Deletes data from the server.
+
+
+>> HTTP Status Codes
+- 200: OK
+- 201: OK created
+- 301: Moved to new URL
+- 304: Not modified (cached version)
+- 400: Bad request  
+- 401: Unauthorized
+- 404: Not found
+- 500: Internal server error
+
+
+>> HTTP Header Fields
+=> General:
+- Request URL
+- Request Methods
+- Status Code
+- Remote Address
+- Referrer Policy
+
+=> Response:
+- Server 
+- Set-Cookies
+- Content-Type
+- Content-Length
+- Date
+
+=> Request:
+- Cookies
+- Accept-xxx
+- Content-Type
+- Content-Length
+- Authorization
+- User-Agent
+- Referrer
+
+
+>> HTTP Version 2
+- Majpr revision of HTTP.
+- Under the hood changes.
+- Respond with more data.
+- Reduce latency by enabling full  request and response multiplexing.
+- Fast, efficient & secure.
+

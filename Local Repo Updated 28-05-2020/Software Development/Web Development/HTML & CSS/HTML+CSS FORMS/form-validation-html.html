@@ -1,0 +1,173 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      body {  
+        font-family: sans-serif; 
+        position: absolute;    
+        width: 100%;
+      }
+
+      form {
+        margin: auto;
+        margin-top: 100px;
+        padding: 10px;
+        border: 1px solid black;
+        width: 30%;
+        height: 510px;
+      }
+
+      .personal-info {
+        height: 130px;
+        margin-top: 15px;
+        text-align: center;
+      }
+
+      .booking-details {
+        height: 225px;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      #booking-details {
+        margin-top: 5px;
+      }
+
+
+      fieldset div div {
+        font-size: 20px;
+        margin: 5px;
+      }
+
+      legend {
+        font-size: 30px;      
+      }
+
+      .button {
+        padding: 8px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        background-color: orange;
+        color: white;
+        display: block;
+        margin-left: 190px;
+        width: 100px;
+      }
+
+    </style>
+    
+    <title>Form Validation</title>
+
+  </head>
+
+  <body>
+
+    <form action="" method="">
+      <!--       
+      action: where you want the form to submit to. 
+      method: (get/post), get - send information to another page on the website, post - save information on a server 
+      -->
+
+      <fieldset>
+        <legend>Personal Info</legend>
+        <div class="personal-info">
+
+          <div>
+            <label> Name </label>
+            <input type="text" name="name" id="name" placeholder="Your Username" autofocus required pattern="[a-zA-Z]{3,}"
+            title="Please enter more than three letters">
+            <!-- upper&lower case a-z min of 3 letters  -->
+          </div>
+
+          <div>
+            <label> Email </label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required pattern="[a-zA-Z0-9]{3,}@[a-zA-Z]{9,}[.]{1}[a-zA-Z]{3,}" title="Please enter a valid email address">
+            <!-- upper&lower case a-z & 0-9 min of 3 letters before @sign, min of 9 letter after @sign, period(.) then  upper&lower case a-z & 0-9 min of 3 letters -->
+          </div>
+  
+          <div>
+            <label> Phone </label>
+            <input type="number" name="phone" id="phone" placeholder="Enter a phone number" required pattern="[0]{1} [8]{1} [3-9]{1} [0-9]{7}" title="Please enter your phone number in this format 08# #######">
+            <!-- first number must be 0 second number must be 8 third number must be between 3-9 & last 7 numbers between 0-9 -->
+          </div>
+
+          <div>
+            <label>Select a country</label>
+            <select name="country" required>
+              <option> </option>
+              <option>Spain</option>
+              <option>Thailand</option>
+              <option>America</option>
+              <option>England</option>
+              <option>Italy</option>
+              <option>France</option>
+              <option>Canada</option>
+              <option>Jamaica</option>
+              <option>Australia</option>
+              <option>China</option>
+            </select>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <fieldset id="booking-details">
+        <legend>Booking Details</legend>
+        <div class="booking-details">
+
+          <div>
+            <label> Booking date </label>
+            <input type="date" name="date" id="date" min="2000-06-21" max=""> 
+          </div>
+
+          <div>
+            <label> How many guests? </label>
+            <input type="number" name="numberOfGuest" id="numberOfGuest" min="1" max="5">
+          </div>
+  
+          <div>
+            <label> Do you require meals? </label>
+            <div class="radio">
+              Yes <input type="radio" name="food" id="yesFood" value="yesFood">
+              No <input type="radio" name="food" id="noFood" value="noFood">
+            </div>
+          </div>
+
+          <div>
+            <label> Do you want a room with a balcony </label>
+            <input type="checkbox" name="balcony" id="balcony" value="yes" checked>
+          </div>
+
+          <div class="button">
+            Send Message
+          </div>
+
+        </div>
+      </fieldset>
+ 
+    </form>
+
+
+    
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

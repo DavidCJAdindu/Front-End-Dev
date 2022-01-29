@@ -1,0 +1,36 @@
+NPM
+
+>> What is NPM
+- Stands for Node Package Manager.
+- Pre-installed with Node.js
+- Easily install modules/packages on your system.
+- Modules are basically Javascripy libraries.
+- Makes it easy for developers to share & reuse code.
+
+
+>> Package.json File
+- It is a manifest file with app info.
+- Lists the Dependencies (modules), (name & version).
+- Specify if versions should be updated.
+- Create NPM scripts.
+- Can easily be creatd with 'npm init'.
+
+
+>> Semantic Versioning
++ The numbers - 'version 8.2.6'
+- 8: Major version; Major changes, breaks the API
+- 2: Minor version; New features, does not break the API
+- 6: Patch; Bug fixes
+
+
+==>> NPM Basic Commands
+- npm version: 'npm -v'
+- create "package.json" file: 'npm init' / 'npm init -y' (default)
+- change value in "package.json" file: 'npm set init-author-name "John Doe"' (changes the author)
+- get a value in the "package.json" file: 'npm get init-author-name' (gets author name)
+- install a package: 'npm install "package-name" --save'
+- install a specific version of a package: 'npm install "package-name@version" --save'
+- update a package: 'npm update "package-name"' 
+- install npm dependencies: 'npm install'
+- remove a dependency: 'npm uninstall "package-name"'
+- list packages in dependencies: 'npm list'

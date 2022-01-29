@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <!-- <link href="NAME OF CSS FILE .CSS" rel="stylesheet"> -->
+    <style>
+
+      body {
+        background: #333;
+
+      }
+
+
+      /* Keyframes */
+      .box1 {
+        background: #fff;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        animation-name: myanimation; /* initialize animation by naming it */
+        animation-duration: 4s; /* add a time duration to the animation */
+        animation-iteration-count: ; /* loops animation */
+        animation-delay: ; /* delays animation */
+        animation-direction: ; /* change direction of animation */
+        animation-timing-function: ; /* changes speed of animation */
+        animation-fill-mode: forwards; /* keeps animation as circle */
+        
+      }
+
+      @keyframes myanimation { /* create keyframe */
+        0% { /* start of animation */
+          background-color: white; 
+          left: 0px; 
+          top: 0px; /* starting position */
+          border-radius: 0 0 0 0; /* start transition into circle */
+        } 
+
+        25% {
+          background-color: red;
+          left: 300px; /* 300px from the left */
+          top: 0px; 
+          border-radius: 50% 0 0 0 ;
+        }
+
+        50% {
+        background-color: green;
+        left: 300px; /* 300px from the left */
+        top: 300px; /* 300px from the top */
+        border-radius: 50% 50% 0 0;
+        }
+
+        75% {
+          background-color: blue;
+          left: 0px;
+          top: 300px; /* 300px from the top */
+          border-radius: 50% 50% 50% 0;
+        }
+
+        100% { /* end of animation */
+          background-color: white;
+          left: 0px;
+          top: 0px; /* back to starting position */ 
+          border-radius: 50% 50% 50% 50%; /* end transition into circle */   
+        } 
+
+      }
+
+
+      /* Transitions */
+      .box2 {
+        background-color: #fff;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin: auto;
+        top: 200px;
+        transition-property: all; /* define the properties you want to transition */
+        transition-duration: 1s; /* duration of the transition */
+        transition-delay: ; /* delays the transition */
+        transition-timing-function: ease-in;
+      }
+
+      .box2:hover { 
+        background-color: red;
+        border-radius: 50%;
+        transform: rotateY(180deg);
+      }
+
+    </style>
+
+    <title>CSS ANIMATIONS - CRASH COURSE</title>
+
+  </head>
+
+  <body>
+
+    <!-- Keyframes -->
+    <div class="box1"></div> 
+
+    <!-- Transitions  -->
+    <div class="box2"></div>
+
+   
+
+
+
+
+    <!-- JavaScript -->
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

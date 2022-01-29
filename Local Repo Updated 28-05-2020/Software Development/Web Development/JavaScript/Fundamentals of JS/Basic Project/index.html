@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet"> 
+
+    <!-- Website Title -->
+    <title>BTC Calculator</title>
+
+  </head>
+
+  <body>
+  
+    <div class="container">
+
+      <div class="header">
+          <img src="btc.png" alt="Bitcoin" class="header__logo">
+          <h1 class="header__heading">Bitcoin Calculator</h1>
+      </div>
+
+      <div class="price">
+        <div class="price__bought">
+              <label class="price__label">BTC/USD when bought</label>
+              <input type="number" class="price__input price__input--bought" id="bought" placeholder="Price in USD">
+          </div>
+          <div class="price__now">
+              <label class="price__label">BTC/USD today</label>
+              <input type="number" class="price__input price__input--now" id="now" placeholder="Price in USD">
+        </div>
+      </div>
+
+      <div class="investment">
+          <label class="investment__text">How many BTC did you buy?</label>
+          <input type="number" class="investment__btc btc" placeholder="Amount of BTC" id="numberofbtc">
+          <button class="investment__btn" id="button">OK</button>
+      </div>
+
+      <p class="result" id="result">
+          Please fill all fields to see results.
+      </p>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="btc.js"></script> 
+  </body>
+
+</html>

@@ -1,0 +1,24 @@
+        /* - The image used - */
+        background-image: url("");
+
+        /* - Center and scale the image nicely - */
+        background-repeat: no-repeat;
+        /* background-size: cover; */ 
+        background-position: 0% 0%; 
+        /* background-attachment: fixed/scroll;  */
+
+
+        /* - Full height - */
+        height: 100vh;  /* 'viewport height' */
+        /* height: 100%;   */
+
+
+background: url("") no-repeat 0% 0%;
+
+
+html {
+  background: url(img_man.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+

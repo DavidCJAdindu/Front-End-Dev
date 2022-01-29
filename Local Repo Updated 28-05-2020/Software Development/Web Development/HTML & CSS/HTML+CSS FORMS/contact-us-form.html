@@ -1,0 +1,147 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-family: sans-serif;
+      }
+
+      body {   
+        /* - The image used - */
+        background-image: url(imgs/nflbg.jpg);
+
+        /* - Center and scale the image nicely - */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        background-attachment: fixed; 
+
+
+        /* - Full height - */
+        height: 100vh;  /* 'viewport height' */
+        /* height: 100%; */
+      }
+
+      .wrapper {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        padding: 0 20px;
+      }
+
+      .contact-from {
+        max-width: 550px;
+        margin: auto;
+        background-color: rgb(0,0,0,0.3); /* transparent background*/
+        padding: 30px;
+        border-radius: 5px;
+        display: flex;
+        box-shadow: 0 0 10px rgba(0,0,0,0.13);  
+      }
+
+      .input-fields {
+        display: flex;
+        flex-direction: column;
+        margin-right: 4%;
+      }
+
+      .input-field, .msg {
+        width: 48%;
+      }
+
+      .input-fields .input, .msg textarea {
+        margin: 10px 0;
+        background: transparent;
+        border: 0;  
+        border-bottom: 2px solid white;
+        padding: 10px;
+        color: white;
+        width: 100%;     
+      }
+
+      .msg textarea {
+        height: 208px;
+      }
+
+      ::-webkit-input-placeholder {
+        color: white;
+      }
+   
+      .btn {
+        background-color: grey;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-transform: uppercase;        
+      }
+
+      @media screen and (max-width: 600px) {
+        .contact-from {
+          flex-direction: column;
+        }
+      }
+1
+    </style>
+    
+    <title>Contact Us Form</title>
+
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+
+      <div class="contact-from">
+
+        <div class="input-fields">
+
+          <input type="text" class="input" placeholder="Name">
+          <input type="text" class="input" placeholder="Email Address">
+          <input type="text" class="input" placeholder="Phone Number">
+          <input type="text" class="input" placeholder="Subject">
+
+        </div>
+
+        <div class="msg">
+
+          <textarea placeholder="Message"></textarea>
+
+          <div class="btn">Send</div>
+
+        </div>  
+
+      </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

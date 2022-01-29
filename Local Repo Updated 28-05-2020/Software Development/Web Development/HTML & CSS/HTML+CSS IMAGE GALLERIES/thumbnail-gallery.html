@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      body {
+        padding: 0;
+        margin: 0;
+        background: #262626;
+      }
+
+      .container {
+        margin: auto;
+        width: 99%;
+        height: 700px;
+        border: 1px solid white;
+      }
+
+      input[type="radio"] {
+        width: 200px;
+        height: 112px;
+        display: block;
+        -webkit-appearance: none;
+        margin: 23px 0 0 70px;
+        cursor: pointer;
+      }
+
+      input[type="radio"]:checked {
+        border: 2px solid white;
+      }
+
+      .display-image {
+        width: 1300px;
+        height: 660px;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        transition: .6s;
+
+      }
+
+      #one {
+        background-image: url(imgs/manu20.jpg);
+        background-size: cover;
+      }
+
+      #one:checked ~ .display-image {
+        background-image: url(imgs/manu20.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center; 
+        /* background-attachment: fixed;   */
+      }
+
+      #two {
+        background-image: url(imgs/manu19.jpg);
+        background-size: cover;
+      }
+
+      #two:checked ~ .display-image {
+        background-image: url(imgs/manu19.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center; 
+        /* background-attachment: fixed;   */
+      }
+
+      #three {
+        background-image: url(imgs/manu18.png);
+        background-size: cover;
+      }
+
+      #three:checked ~ .display-image {
+        background-image: url(imgs/manu18.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center; 
+        /* background-attachment: fixed;   */
+      }
+
+      #four {
+        background-image: url(imgs/manu17.png);
+        background-size: cover;
+      }
+
+      #four:checked ~ .display-image {
+        background-image: url(imgs/manu17.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center; 
+        /* background-attachment: fixed;   */
+      }
+
+      #five {
+        background-image: url(imgs/manu16.jpg);
+        background-size: cover;
+      }
+
+      #five:checked ~ .display-image {
+        background-image: url(imgs/manu16.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center; 
+        /* background-attachment: fixed;   */
+      }
+
+
+    </style>
+
+    <title>Thumbnail Gallery</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <input type="radio" name="image" id="one" checked>
+      <input type="radio" name="image" id="two">
+      <input type="radio" name="image" id="three">
+      <input type="radio" name="image" id="four">
+      <input type="radio" name="image" id="five">
+
+      <div class="display-image">
+
+      </div>
+
+      
+    </div>
+
+  
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

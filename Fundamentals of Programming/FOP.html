@@ -1,0 +1,496 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link href="fop.css" rel="stylesheet"> 
+
+    <!-- Website Title -->
+    <title>Fundamentals of Programming</title>
+
+  </head>
+
+  <body>
+
+    <div id="intro">
+
+      <h1 title="Click me for Documentation!">
+        <a href="https://www.w3schools.com/">
+          The Fundamentals of Programming
+        </a> 
+      </h1>
+
+      <div id="code-des">
+        <div class="inner-des">
+          <p>Programming is all about Logical Thinking!</p>
+          <p>Programming is a controlled execution of steps.</p>
+        </div>
+  
+        <div class="inner-des">
+          <p>The best way to think about programming is you are explaining a series of steps to something, but this thing is a computer and computers are very stupid. </p>
+          <p>So you have to tell the computer what you want it to do step by step.</p>
+        </div>
+
+        <div class="inner-des">
+          <p>It is always advised to use comments to outline these steps before writing a program, it will help you think about the steps needed to write the program and organise them efficiently.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="intro-example">
+
+      <h2>A Real World Example - 
+        <span>The Refrigerator Program</span>
+      </h2>
+
+      <div id="example-text">
+        <p>-  Imagine you just bought a new fridge that did not work, and you had to explain to the fridge what to do.</p>
+        <p>- These are the steps you might explain to the fridge to do its job.</p>
+      </div>
+
+      <div class="example-steps">
+
+        <div class="step"><span>1.</span> 
+          While plugged into the outlet
+        </div>
+        <div class="step"><span>2.</span>
+          Check temperature
+        </div>
+        <div class="step"><span>3.</span>
+          If too warm, start engine
+        </div>
+        <div class="step"><span>4.</span>
+          If too cold, stop engine
+        </div>
+        <div class="step"><span>5.</span>
+          Wait 1 minute
+        </div>
+
+        <div class="note"> * And the program world return back to the first step and continue to run...
+          <span>"While plugged into the outlet".</span>
+        </div>
+
+      </div>
+
+      <div class="example-steps">
+
+        <p>This is probably how you would explain these steps to the fridge in "software language".</p>
+
+        <div id="code-steps">
+
+          <div class="code-step">while plugged_in () {</div>
+            <div id="codesteps-inner">
+              <div class="code-step">check temp</div>
+              <div class="code-step">if temp > maxTemp start engine</div>
+              <div class="code-step">else if temp < minTemp stop engine</div>
+              <div class="code-step">Wait 1 minute</div>
+            </div>
+          <div class="code-step">}</div>
+
+        <div class="code-note">
+          This may look a little bit like jibberish to you but you will soon understand all of this.
+        </div>
+
+        </div>
+
+      </div>    
+
+    </div>
+
+    <div id="q-info">
+      Now we will look at the basics of programming. These are the basic concepts you will find in all programming languages!
+    </div>
+
+    <div id="data-types">
+
+      <h2>Data Types</h2>
+      <p>Data Types are types of data that can be stored in the memory of the computer using a variable.</p>
+      <h3>They include:</h3>
+      <ul>
+        <li>Numbers - Integers & Floats</li>
+        <li>Charactars (Char) & Strings</li>
+        <li>Arrays / Lists</li>
+        <li>Hash / Dictionaries (also known as Objects)</li>
+      </ul>
+
+      <div class="num-type">
+        <h3>Numbers - Integers & Floats</h3>
+        <p>Integers are whole numbers, e.g. 10</p>
+        <p>Floats are numbers with decimal precision, e.g. 5.2</p>
+        <p>Operations between two Integers will return an Int. Opertions between to Floats will return a Float, operations between an Int and a Float will return a Float. </p>
+        <div class="type-note">Operations are adding, subtracting, multiplying & dividing numbers.</div>
+      </div>
+
+      <div class="char-type">
+        <h3>Charactars (Char) & Strings</h3>
+        <p>Char is a single Character,
+          <span>e.g. 'a'</span>, basically a letter</p>
+        <p>String is a collection of Characters, 
+         <span>e.g. 'abcd'</span>, basically a word</p>
+      </div>
+
+      <div class="array-type">
+        <h3>Array / List</h3>
+        <p>Arrays also know as Lists, are a collection of data types. Numbers and or Char/Strings.</p>
+        <p>E.g. names = [ 'john', 'monica', 'david', 'lisa' ]</p>
+        <p>E.g. ages = [12, 13, 16, 19]</p>
+        <p>Some languages allow for mixed data types in an array, others only allow one type of data type for an array.</p>
+        <p>E.g. listOfPeople = [ 'john', 50, 'monica', 3.5 ] </p>
+      </div>
+
+      <div class="hash-type">
+        <h3>Hash / Dictionary</h3>
+        <p>Also known as Objects.</p>
+        <p>Used for storing  relational information.</p>
+        <p>They come in key and a value pairs, e.g. person = {'firstname':'John', 'surname':'Smith', 'age', 50}</p>
+        <p class="type-note">In this object called person, as you can see the firstname is 'John', surname is 'Smith', and age is 50. Objects can be anything in the world, as long as they have a name and attributes.</p>
+        <p>Objects can also become more complicated, Object Oriented Programming is an advanced programming concept.</p>
+      </div>
+
+    </div>
+
+    <div id="variables">
+
+      <h2>Variables</h2>
+
+      <ul class="var">
+        <li>Variables are containers that store data values.</li>
+        <li>
+          You declare a variable by naming it and assigning it a value 
+          <div>
+            e.g. "NAME OF VARIABLE" = 'VALUE' ;  firstName = 'John'
+          </div>
+        </li>
+        <li>Some langauges make you define the data type  
+          <div>
+            ee.g [data type] "NAME OF VARIABLE" = 'VALUE' ; String firstName = 'John'
+          </div>
+        </li>       
+      </ul>
+
+      <h4>
+        Somethings you need to keep in mind when creating variables:
+      </h4>
+      <ul class="vari">
+        <li>Variable names can not start with a number or special symbol, e.g. 1name or $name</li>
+        <li>You can use an underscore (_) , e.g. first_name</li>
+        <li>Best practice is to use camel case naming, e.g. firstName</li>
+        <li>It is also best practice to use lower case variables</li>
+        <li>
+          Variable names are case sensitive in some langauges, e.g.
+          <span>firstname = 'John'</span>
+          &
+          <span>Firstname = 'John'</span>
+          are two different variables.
+        </li>
+      </ul>
+
+      <div id="operators">
+
+        <h2>Mathematical Operators</h2>
+        <p>Operators are used to conduct mathematical operations and computations on data types. </p>
+
+        <table>
+          <tr>
+            <th>Mathematical Operators</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td> + </td>
+            <td>Addition</td>
+          </tr>
+          <tr>
+            <td> - </td>
+            <td>Subtraction</td>
+          </tr>
+          <tr>
+            <td> * </td>
+            <td>Multiplition</td>
+          </tr>
+          <tr>
+            <td> / </td>
+            <td>Division</td>
+          </tr>
+          <tr>
+            <td> % </td>
+            <td>Modulus</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div id="control-flow">
+
+      <h2>Control Flow</h2>
+      <div class="flow-text">
+        <p>Control Flow is used to control the execution of code.</p>
+        <p>To be able to form control flow you need to use Relational Operations</p>
+      </div>
+
+      <table>
+        <tr>
+          <th>Relational Operations</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td> ==  </td>
+          <td>equal</td>
+        </tr>
+        <tr>
+          <td> != </td>
+          <td>not equal </td>
+        </tr>
+        <tr>
+          <td> < </td>
+          <td>less than </td>
+        </tr>
+        <tr>
+          <td> > </td>
+          <td>greater than</td>
+        </tr>
+        <tr>
+          <td> >= </td>
+          <td>greater or equal than</td>
+        </tr>
+        <tr>
+          <td> <= </td>
+          <td>less or equal than</td>
+        </tr>
+      </table>
+
+      <h3>The 'if' Statement </h3>
+      <p>The 'if' statement is used to compare two values in order execute code.</p>
+
+      <div class="if-1">
+        <div><span>Syntax:</span> if(condition){</div>  
+        <div id="line-1">
+          // block of code to be executed if the condition is true
+        </div> 
+        <div>}</div> 
+      </div>
+
+
+      <div class="if-2">
+        <div><span>E.g. </span> x = 5</div>  
+        <div>if (x > 0) {</div> 
+        <div>print "Hello, World"</div> 
+        <div>}</div>
+        <p>If the value of the variable x is greater than 5 then the code inside the curly braces will execute. </p>
+      </div>
+ 
+      <h3>The 'if-else' Statement </h3>
+      <p>If the if statement isnt executed the else statement will. </p>
+
+      <div class="if">
+        <div><span>Syntax:</span> if(condition){</div>  
+        <div>
+          // block of code to be executed if the condition is true
+        </div> 
+        <div>} else {</div> 
+        <div>
+          // block of code to be executed if the condition is false</div>
+        <div>}</div>
+      </div>
+
+      <div class="if">
+        <div><span>E.g. </span> x = 5</div>  
+        <div>if (x > 10) {</div> 
+        <div>print "Hello, World"</div> 
+        <div>} else {</div>
+        <div>print "Goodbye, World"</div>
+        <div>}</div>
+      </div>
+
+      <p>If the value of the variable x is greater than 5 then the code inside the curly braces will execute, else the code in the else statement will be executed. </p>
+
+      <h3>The 'else-if' Statement </h3>
+      <p>If the if statement isnt executed the else-if statement will execute, if both the if & else-if statements dont execuse the else statement will.</p>
+
+      <div class="if">
+        <div><span>Syntax:</span> if(condition1){</div>  
+        <div>
+          // block of code to be executed if the condition1 is true
+        </div>
+        <div>} else if(condition2) {</div> 
+        <div>
+          //  block of code to be executed if the condition1 is false and condition2 is true
+        </div> 
+        <div>} else {</div> 
+        <div>//  block of code to be executed if the condition1 is false and condition2 is false</div> 
+        <div>}</div>
+      </div>
+
+      <div class="if">
+        <div><span>E.g. </span> x = 5</div>  
+        <div>if (x > 10) {</div> 
+        <div>print "Hello, World"</div> 
+        <div>} else if (x < 10) {</div>
+        <div>print "Goodbye, World"</div>
+        <div>} else {</div>
+        <div>print "i love programming" </div>
+        <div>}</div>
+      </div>
+
+      <p>If the value of the variable x is greater than 5 then the code inside the curly braces will execute, else, if the code is not the code in the else-if statement will be executed. The else statement is excuted if both if and else-if statements arent executed.</p>
+
+      <h3>The 'Switch' Statement </h3>
+      <p>Used to select one of mn code blocks to be executed </p>
+
+      <div class="if">
+        <div><span>Syntax:</span> switch(expression) {</div>  
+        <div>case x:</div>
+        <div>// code block</div>
+        <div>break;</div>
+        <div>case y:</div>
+        <div>// code block</div>
+        <div>break;</div>
+        <div>default:</div>
+        <div>// code block</div>
+        <div>}</div>
+      </div>
+
+
+      <div class="if">
+        <div><span>E.g.</span> num = 2</div>
+        <div>switch (num) {</div>
+        <div>case 0:</div>
+        <div>print "Value is 0"</div>
+        <div>break;</div>
+        <div>case 1:</div>
+        <div>print "Value is 1"</div>
+        <div>break;</div>
+        <div>case 2:</div>
+        <div>print "Value is 2"</div>
+        <div>break;</div>
+        <div>case 3:</div>
+        <div>print "Value is 3"</div>
+        <div>default;</div>
+        <div>print "Value not found"</div>
+        <div>}</div>
+      </div>
+
+    </div>
+
+    <div id="log-ops">
+
+      <h2>Logical Operators</h2>
+      <p>Allow you to concatinate or compare two conditions</p>
+      <table>
+        <tr>
+          <th>Logical Operator</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td> ! </td>
+          <td> Logical not - Reverts the value of the previous evaluation. </td>
+        </tr>
+        <tr>
+          <td> && </td>
+          <td>Logical and - Next statement evaluated only if the previous is true. All statements must be true to go into code block. </td>
+        </tr>
+        <tr>
+          <td> || </td>
+          <td>Logical or - Next statement evaluated only if the previous is false. As soon as one statement is true we go into code block.</td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div id="iteration">
+
+      <h2>Iteration</h2>
+      <p>
+        Constructs that allow code to be repeated based on some rules.
+      </p>
+
+      <h3>Common Constructs</h3>
+      <ul>
+        <li>while Loop</li>
+        <li>for Loop</li>
+        <li>foreach Loop</li>
+      </ul>
+
+
+      <h3>While Loop</h3>
+      <div>Executes code as long as the condition is true</div> 
+      <div><span>Syntax:</span>while(condition) {</div>  
+      <div>// codeblock</div>
+      <div>}</div> 
+
+
+      <h3>For Loop</h3> 
+      <p>Provides a shorthand way to repeat code</p> 
+
+      <div>
+        <span>Syntax:</span>
+        for (i = 0; i < value; i+=1) {
+      </div>   
+      <div>// codeblock</div> 
+      <div>}</div> 
+
+      <div>
+        <p>i = 0; Initialization - where the loop starts </p> 
+        <p>i < value; Condition </p> 
+        <p>i+=1 Increment</p> 
+      </div>
+
+      <h3>Foreach Loop</h3> 
+      <p>Available in some langauges</p> 
+      <p>Quick way to iterate over arrays or lists</p> 
+
+      <div>
+        <span>Syntax:</span>
+        myList = ['hi','bye','now','then']
+      </div>  
+      <div>foreach item in myList {</div> 
+      <div>// codeblock</div>     
+      <div>}</div> 
+ 
+    </div>
+
+    <div id="functions">
+
+      <h2>Functions</h2>
+
+      <div class="func-text">
+        <p>Functions are constructs that allow you to pre-package code that can be executed through a simple function call.</p>
+        <p>They are very useful to avoid having repetitive code. </p>
+        <p>Increase code maintainability. </p>
+        <p>Functions are created in different ways in different programming languages. </p>
+      </div>
+
+      <div>More than likely you will follow this syntax:</div> 
+      <div>[function-keyword] function-name(parameters) {</div> 
+      <div>// codeblock to be executed</div> 
+      <div>}</div> 
+
+      <div>To call a function you would follow this syntax most of the time:</div>
+      <div>function-name(arguments)</div>
+
+      <h3>When should I use Functions?</h3>
+      <p>If you need to use the same code in more than one location, then you should turn it into a function.</p>
+      <p>If it is a piece of code that could be usedful in other scripts.</p>
+      <p>If you are developing a library or module. </p>
+
+
+
+
+
+    </div>
+
+ 
+    <!-- <script>
+      alert("Welcome to The Fundamentals of Programming");
+    </script>  -->
+
+  </body>
+
+</html>

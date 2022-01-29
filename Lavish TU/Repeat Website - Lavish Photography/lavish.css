@@ -1,0 +1,294 @@
+/* Footer Styling */
+
+footer{
+	text-align: center;
+	color: grey;
+	font-weight: 10px;
+	font-size: 20px;
+	margin-top: 70px;	
+}
+
+#copyright{
+	margin-top: 50px;
+	font-weight: 10px;
+	font-size: 15px;
+}
+
+/* Homepage Styling*/
+
+#logo {
+    display: inline;
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+.lavishhead{
+	text-align: center;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-weight: 500 ;
+	color: grey;
+
+}
+
+#lavishp{
+	font-weight: 50px ;	
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 80%;               
+  background-color:grey;
+  height: 1px;
+}
+
+.navbar{
+	background: ;
+	width: 80%;
+	margin: 0px auto;
+}
+
+nav ul{
+	list-style: none;
+	text-align: center;
+	padding: ;
+	
+	
+}
+
+nav li{
+	display: inline-block;
+	margin: 0 10px ;
+	color: grey;
+	padding: 5px;
+	
+}
+
+nav a{
+	color: grey;
+	text-decoration: none;
+	text-transform: ;
+	
+	
+}
+
+#picshow{
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.picwall{
+    position: relative;
+    float: left ;
+    width:  350px;
+    height: 250px;
+ 
+}
+
+#picno1{
+	margin-left: 275px;
+}
+
+#column {
+	float: left;
+	padding: 15px;
+}
+
+
+#row::after {
+	content: "";
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	flex: 33.33%;
+}
+
+#hometext{
+	margin-left: 280px;
+	width: 80%;
+	margin-top: 40px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;	
+}
+
+/* About Us Styling */
+
+#hometext{
+	margin-left: 280px;
+	width: 80%;
+	margin-top: 40px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;
+}
+
+/* FAQ Styling */
+
+#hometext{
+	margin-left: 280px;
+	width: 80%;
+	margin-top: 40px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;
+}
+
+/* Customer Testimonials Styling */
+
+.name{
+	margin-left: 950px;
+}
+
+.customers{
+	margin-left: 200px;
+	width: 80%;
+	margin-top: 70px;
+	font-size: 15px;
+	color: grey;
+	font-weight: 10px;		
+}
+
+.tests{
+	margin-top: 40px;	
+}
+
+
+.hrtests{
+    width: 100%;               
+    background-color:grey; 
+    border-bottom: 1px solid;
+}
+
+/* Contact Us Styling */
+
+.cont{
+	margin-left: 280px;
+	width: 80%;
+	margin-top: 40px;
+	font-size: 15px;
+	color: grey;
+	font-weight: 10px;	
+}
+
+#emailcont{
+	text-decoration: underline;
+	
+}
+
+#conttext{
+	margin-left: 280px;
+	width: 80%;
+	margin-top: 40px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;	
+}
+
+.formcont{
+	margin-left: 280px;
+	width: 80%;
+	margin-top: 40px;
+	font-size: 15px;
+	color: grey;
+	font-weight: 10px;	
+}
+
+#button{
+	margin-left: 350px;
+	
+}
+
+/* Gallery Styling */
+
+#galtext{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;
+}
+
+.picwall{
+    position: relative;
+    float: left ;
+    width:  350px;
+    height: 250px;
+}
+ 
+/* Special Offers Styling */
+
+#specialtext{
+	text-align: center;
+	text-transform: ;
+	margin-top: 40px;
+	font-size: 40px;
+	color: grey;
+	font-weight: 15px;
+}
+
+#special{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;		
+}
+
+#spectext{
+	text-align: center;
+	text-decoration: underline;
+	font-family: Luminari, fantasy;
+	margin-top: 15px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;	
+}
+
+#gift{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 40px;
+	color: grey;
+	font-weight: 20px;
+}
+
+/* Products Styling */
+
+#prod{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 10px;
+}
+
+
+
+.prodwall{
+    width:  350px;
+    height: 250px;
+}
+
+#prodinfo{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 40px;
+	color: grey;
+	font-weight: 20px;
+}
+ 
+
+
+
+
+

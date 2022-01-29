@@ -1,0 +1,53 @@
+
+>> The HTTP Protocol 
+- HTTP stands for Hypertext Transfer Protocol.
+- The HTTP is an application laer protocol that allows web-based applications to communicate and exchange data.
+- The HTTP is the messenger of the web.
+- It is a TCP/IP based protocol.
+- It is used to deliver contents, for example, images, videos, audios, documents, etc.
+- The computers that communicate via the HTTP must speak the http protocol.
+
+-> HTTP is connectionless: After making the request, the client disconnects from the server, then when the response is ready the server re-establishes the connection again and delivers the response.
+
+-> The HTTP is stateless: The cliet and server know about each other just during the current request, if it closes, and the two computers want to connect again, they need to provide information to each other anew, and the connection is handled as the very first one. 
+
+-> The HTTP can deliver any sort of data, as long as the two computers are able to read it.
+
+
+>> Why the HTTP?
+- The http was designed mainly to fetch html documents and send it to the client. Is was designed in a exquisite way.
+- Is was being continually evolved and features were being added to it.
+- It became the most convenient way to quickly and reliably move data on the web. 
+
+
+>> HTTP Messages
+> A typical HTTP message:
+- Start line
+- Headers
+- Body
+-> The message contains plain text based information.
+-> Sometime sthe body contains binary data. 
+-> The information in the three sections vary depending on the http message, whether it is a request or a response.
+
+--> Request HTTP Message
+-> Start line: Method(GET/POST), URI(path/to/file.ext), http/version(HTTP/1.0)
+- Method: the method is a command that tells the server what to do.
+- URI: Uniform Resource Identifier; a set of readable characters and a way to locate the resource
+-> Headers: name/value pairs information
+- Specifies some information in rules 
+
+--> Response HTTP Message
+-> Start line: http/version, status code
+- Status Code: tells the client if the request succeeded or failed. 
+e.g. '200:OK', '404:Not Found'
+-> Headers: name/value pair information
+-> Body: e.g. file requested 
+
+
+>> Summary 
+- The HTTP is a TCP/IP based application layer protocol that allows web-based applications to communicate and exchange data.
+- The computers that communicate via the HTTP must speak the http protocol.
+- The http is stateless, connectionless, an can deliver any data.
+- We use the http protocol because it is a convenient way to quickly and reliably move data on the web.
+- The request response ccle works on the web via http messages.
+- A http message contains three sections, the start line, the headers, and the body. 

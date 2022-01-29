@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <!-- <link href="NAME OF CSS FILE .CSS" rel="stylesheet"> -->
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        display: grid; /* enables body to grid */
+        grid-template-columns: 30% auto; /* create columns in the grid */
+        grid-template-rows: 60px auto 60px; /* create rows in the grid */
+        /* populate grids columns & rows */
+        grid-template-areas: "hd hd"
+                             "sidebar main"
+                             "footer footer" ;
+      }
+
+      header, 
+      aside,
+      main,
+      footer {
+        padding: 16px;
+        text-align: center;
+      }
+
+      header {
+        background: #521751;
+        grid-area: hd;
+      }
+
+      aside {
+        background: #fa923f;
+        grid-area: sidebar;
+      }
+
+      main {
+        grid-area: main;
+      }
+
+      footer {
+        background: black;
+        grid-area: footer;
+      }
+
+      .navigation-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* enables flexbox */
+        flex-direction: row;
+        justify-content: center; /* positions items on the vertically */
+        align-items: center; /* positions items on the horizontally */
+        height: 100%;
+      }
+
+      .navigation-item a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 10px;
+      }
+
+      a:hover {
+        color: #fa923f;
+      }
+
+    </style>
+
+    <title>WEBSITE TITLE</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="#">Posts</a></li>
+        <li class="navigation-item"><a href="#">Products</a></li>
+        <li class="navigation-item"><a href="#">About Us</a></li>
+      </ul>
+    </header>
+
+    <aside>
+      <p>My super awesome sidebar</p>
+    </aside>
+
+    <main>
+      <h1>CSS Grid or Flexbox</h1>
+      <p>When should you use which?</p>
+    </main>
+
+    <footer>
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="#">Terms of Use</a></li>
+        <li class="navigation-item"><a href="#">Support</a></li>
+      </ul>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+
+
+
+    </style>
+    
+    <title>Basic Form</title>
+
+  </head>
+
+  <body>
+
+    <form action="results.html" method="" enctype="multipart/form-data">
+      <!--       
+      action: where you want the form to submit to. 
+      method: (get/post), get - send information to another page on the website, post - save information on a server 
+      -->
+
+      <label>
+        Name
+        <input type="text" name="name" id="" value="" placeholder="John" required> 
+      </label>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="100" step="">
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="name" required>
+      </div>
+
+      <div>
+        <label for="date">Birthday</label>
+        <input type="date" name="date" id="date" min="2019-06-21" max="">
+      </div>  
+
+      <div>
+        Favourite Food
+        <div>
+          <label for="banana">Banana</label>
+          <input type="checkbox" name="banana" id="banana">
+        </div>
+        <div>
+          <label for="apple">Apple</label>
+          <input type="checkbox" name="apple" id="apple">
+        </div>
+      </div>
+
+      <div>
+        Gender
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male">
+        </div>       
+        <div>
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <div>
+          <label for="other">Other</label>
+          <input type="radio" name="gender" id="other" value="other">
+        </div>
+      </div>
+
+
+      <div>
+        <label for="eyecolor">Eye Color</label>
+        <select name="eyecolor" id="eyecolor"> <!-- multiple -->
+          <option value="green">Green</option>
+          <option value="red" label="Red"></option>
+          <option value="brown">Brown</option>
+          <option value="blue" label="Blue"></option>
+        </select>
+      </div>
+
+      <div>
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio"></textarea>
+      </div>
+
+      <div>
+        <label for="file">File</label>
+        <input id="file" type="file" name="file">
+      </div>
+
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+
+      <div>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url">
+      </div>
+
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="color">
+      </div>
+
+
+
+      <button type="reset">Reset</button>
+      <button type="submit">Go</button>
+  
+    </form>
+
+
+    
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

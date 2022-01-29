@@ -1,0 +1,57 @@
+WINDOWS COMMAND PROMPT 
+
++ The command prompt is a text interface for interacting with your       computer. 
++ The command prompt is more powerful than the graphic user interface. 
++ When you launch the command prompt your are promted to enter a         command in the current working directory, which shows where you are     in the system. 
+
++ Use tab for auto-completion of commands 
++ Use UP&DOWN arrows to navigate through command history 
++ Use Home&End to move between the start and end of the line prompt
++ use ctrl + left/right arrow to jump words
+
+** Basic Commands **
+
+- cd (folder name) : takes you into a directory 
+- cd (folder name)\(folder name) : takes you into a second directory
+- cd .. : "change directory", takes you back 1 directory
+- cd ../.. : takes you back 2 directories 
+- (filname) : opens file in the default program 
+
+- dir : lists all files and folders available inside a directory 
+- dir /a : Lists all files and folders including hidding files and         folders
+- mkdir (folder name) : creates a new directory 
+- rmdir (folder name) : deletes a directory
+- rmdir /s (folder name) : deletes a directory with other files and      folders inside
+// Use "double quotes" for directories with white spaces
+
+- echo {content} > (file name) : creates a file with content
+- echo {content} >> (file name) : adds more content to a file, if 2 '>'   signs arent used previous content is deleted
+- del (file name) : deletes a file 
+- type (file name) : displays content inside a file in the command       prompt
+
+- move (file name) [new name] : renames a file 
+- copy (file name) <destination folder> : copys a file to another folder
+- move (file name) <destination folder> : moves a file to another folder
+- move/copy (file name) <destination folder> {new name} : moves/copys a file into another folder and renames it 
+- move (*.file type) <destination folder> : moves all files with a        similar type to a differnt directory 
+- move (folder name) <drive:\> : moves a folder in one location to a      different location
+// You cant move multiple files with a single command, however you can use wildcards to move files in bulk. Wildcard does not work for directories! 
+
++ C drive is the main drive in a PC!
+- wmic logicaldisk get name : lists all drive on the PC
+- (drive name ':') : moves you to a different drive 
+
+- command /? : opens the help information for the command 
+- title (titile name) : changes the title of the command prompt
+- * : "wild card charater" selects files of the same type
+- cls : clears all previous commands 
+- tree: see how the files are organised in the system 
+
+- color /? : displays options to change the color of the command prompt
+- color (attributes) : chnages the color of the command prompt
+- color : restores to default color
+
+
+
+
+

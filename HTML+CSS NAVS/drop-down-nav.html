@@ -1,0 +1,253 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+
+    <style>
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-image: url(imgs/bgimg.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-attachment: fixed;
+      
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      nav {
+        background-color: #194d00;
+        text-align: center;        
+      }
+
+      nav ul {
+        display: inline-flex;
+        list-style: none;
+      }
+
+      nav li {
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .active, nav ul li:hover {
+        background-color: #62ff1a;
+        border-radius: 3px;
+      }
+
+      .menu1 {
+        display: none;
+
+      }
+
+      nav ul li:hover .menu1 {
+        display: block;
+        position: absolute;
+        background-color: #194d00;
+        margin-top: 15px;
+        margin-left: -15px;
+      }
+
+      nav li:hover .menu1 ul{
+        display: block;
+        margin: 10px;
+      }
+
+      nav li:hover .menu1 ul li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px solid white;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+      }
+
+      nav li:hover .menu1 ul li:last-child{
+        border-bottom: none;
+      }
+
+      nav li:hover .menu1 ul li a:hover{
+        color: yellow;
+      }
+
+      .menu2 {
+        display: none;
+
+      }
+
+      .hover-me:hover .menu2 {
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 140px;
+        background-color: #194d00;
+      }
+
+
+
+    </style>
+
+    <title>Drop Down Navbar</title>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav>
+
+        <ul>
+
+          <li class="active">
+            <a href="#">Home</a>
+          </li>
+
+          <li>
+
+            <a href="#">About Us</a>
+
+            <div class="menu1">
+              <ul>
+                <li>
+                  <a href="#">Mission</a>
+                </li>
+                <li>
+                  <a href="#">Vision</a>
+                </li> 
+                <li>
+                  <a href="#">Team</a>
+                </li>
+              </ul>
+            </div>
+
+          </li>
+
+          <li>
+            <a href="#">Clients</a>
+          </li>
+
+          <li>
+            <a href="#">Investers</a>
+          </li> 
+
+          <li>
+
+            <a href="#">Services</a>
+
+            <div class="menu1">
+
+              <ul>
+
+                <li>
+                  <a href="#">Web Designing  </a>
+                </li>
+
+                <li class="hover-me"> 
+
+                  <a href="#">Marketing  ></a>
+
+                  <div class="menu2">
+                    <ul>
+                      <li>
+                        <a href="#">SEO</a>
+                      </li>
+                      <li>
+                        <a href="#">Social Media</a>
+                      </li> 
+                      <li>
+                        <a href="#"> Email Marketing</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </li> 
+
+                <li class="hover-me">
+
+                  <a href="#">Mobile App ></a>
+
+                  <div class="menu2">
+                    <ul>
+                      <li>
+                        <a href="#">Android App</a>
+                      </li>
+                      <li>
+                        <a href="#">IOS App</a>
+                      </li> 
+                      <li>
+                        <a href="#">Ionic App</a>
+                      </li>
+                      <li>
+                        <a href="#">Flutter App</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </li>
+
+              </ul>
+            </div>
+
+          </li>
+
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#">Training</a>
+          </li> 
+
+          <li>
+            <a href="#">Contact</a>
+          </li> 
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <div class="container">
+
+
+    </div>
+
+    <footer>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

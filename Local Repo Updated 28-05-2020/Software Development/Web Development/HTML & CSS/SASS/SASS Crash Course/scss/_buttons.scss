@@ -1,0 +1,31 @@
+// Partial file (_), written to be brought into the main sass file. 
+
+//shared styles using (%-syntax)
+%btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+
+  // (&) used to add styling on top of the parent element 
+  &:hover{
+    transform: scale(.98);
+  }
+
+}
+
+.btn-primary {
+
+  //adds styling made to the button %btn
+  @extend %btn;
+  @include set-background(lighten($primary-color, 10%));
+
+}
+
+.btn-secondary {
+  
+  //adds styling made to the button %btn
+  @extend %btn;
+  @include set-background($secondary-color);
+
+}

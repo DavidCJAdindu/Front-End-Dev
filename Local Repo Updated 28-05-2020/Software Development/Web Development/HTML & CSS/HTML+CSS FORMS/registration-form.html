@@ -1,0 +1,267 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      body {
+        background-color: #33adff;   /* light-blue: #99d6ff */   
+        text-align: center;    
+      }
+
+      h1 {
+        color: white;
+        text-decoration: underline;
+        padding: ;
+      }
+
+      .form {
+        border: 2px solid white;
+        width: 30%;
+        height: 700px;
+        margin: auto;
+        background-color: #66c2ff;
+      }
+
+      .input-box {
+        display: block;
+        margin: 15px;
+        width: 450px;
+        height: 36px;      
+      }
+
+      .input-box-address {
+        display: block;
+        margin: 15px;
+        width: 450px;
+        height: 97px;
+      }
+
+      label {
+        display: inline;
+        float: left;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px ;
+        font-weight: bold;
+        padding-top: 8px;
+      }
+
+      .address {
+        padding-top: 35px;
+      }
+
+      /* input {
+        display: inline;
+        height: 25px;
+        width: 250px;
+      } */
+
+      #firstname {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 113px;
+        border-radius: 7px;
+      }
+
+      #lastname {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 115px;
+        border-radius: 7px;
+      }
+
+      #dob {
+        height: 30px;
+        width: 250px;
+        margin-left: 97px;
+        border-radius: 7px;      
+      }
+
+      #email {
+        display: inline;
+        height: 29px;
+        width: 250px;
+        margin-left: 151px;
+        border-radius: 7px;
+      }
+
+      #password {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 120px;
+        border-radius: 7px;
+      }
+
+      #password {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 120px;
+        border-radius: 7px;
+      }
+
+      #password-re {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 53px;
+        border-radius: 7px;
+      }
+
+      #number {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 78px;
+        border-radius: 7px;
+      }
+
+      #gender {
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px ;
+        font-weight: bold;  
+        padding-top: 7px;  
+        margin-left: 140px;  
+        border-radius: 7px;   
+      }
+
+      textarea {
+        display: inline;
+        height: 90px;
+        width: 255px;
+        margin-left: 120px;
+        border-radius: 7px;
+      }
+
+      #city {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 162px;
+        border-radius: 7px;
+      }
+
+      #postcode {
+        display: inline;
+        height: 30px;
+        width: 250px;
+        margin-left: 123px;
+        border-radius: 7px;
+      }
+
+      #btn {
+        margin-top: 10px;
+        background-color: #000066;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 6px;
+      }
+
+    </style>
+    
+    <title>Registration Form</title>
+
+  </head>
+
+  <body>
+
+    <div>
+      <h1>Lavish Digital Solutions</h1>
+    </div>
+
+    <div class="form"> 
+
+      <div class="input-box">
+        <label class="firstname">First Name:</label>      
+        <input type="text" id="firstname" placeholder=" Enter Your First Name">
+      </div>
+
+      <div class="input-box">
+        <label class="lastname">Last Name:</label>      
+        <input type="text" id="lastname" placeholder=" Enter Your Last Name">
+      </div>
+
+      <div class="input-box">
+        <label class="dob">Date Of Birth:</label>      
+        <input type="date" id="dob">
+      </div>
+
+      <div class="input-box">
+        <label class="email">Email:</label>      
+        <input type="text" id="email" placeholder=" Enter Your Email">
+      </div>
+
+      <div class="input-box">
+        <label class="password">Password:</label>      
+        <input type="password" id="password" placeholder=" Enter Your Password">
+      </div>
+
+      <div class="input-box">
+        <label class="password-re">Re-Enter Password:</label>      
+        <input type="password" id="password-re" placeholder=" Re-Enter Your Password">
+      </div>
+
+      <div class="input-box">
+        <label class="number">Miobile Number:</label>      
+        <input type="number" id="number" placeholder=" Enter Your Mobile Number">
+      </div>
+
+      <div class="input-box">
+        <label class="gender">First Name:</label>  
+        <div id="gender">
+          <input type="radio" name="gender" value="Male"> Male
+          <input type="radio" name="gender" value="Female"> Female
+          <input type="radio" name="gender" value="Other"> Other
+        </div>
+      </div>
+
+      <div class="input-box-address">
+        <label class="address">Address:</label>      
+        <textarea placeholder=" Enter Your Address"></textarea>
+      </div>
+
+      <div class="input-box">
+        <label class="city">City:</label>      
+        <input type="text" id="city" placeholder=" Enter Your City">
+      </div>
+
+      <div class="input-box">
+        <label class="postcode">Postcode:</label>      
+        <input type="text" id="postcode" placeholder=" Enter Your Postcode">
+      </div>
+
+      <div class="button">
+        <input type="sumbit" id="btn" value="Sumbit">
+      </div>
+
+    </div>
+    
+  
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      body {
+        background-color: #323232;
+      }
+
+      .wrap {
+        width: 350px;
+        margin: auto;
+        background-color: #00adee;
+        margin-top: 50px;
+        padding: 5px;
+      }
+
+      form {
+        padding: 10px;
+        font-family: Arial;
+        border: 1px dotted white;
+        margin: 10px;
+        
+      }
+
+      h2 {
+        text-align: center;
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+
+      }
+
+      input {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        border: none;
+
+      }
+
+      input[type=text], input[type=email], input[type=number], input[type=password] {
+        width: 90%;
+      }
+
+      input[type=submit] {
+        width: 95%;
+        background-color: orange;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+      }
+
+      input[type=submit]:hover {
+        background-color: yellow;
+      }
+
+      select {
+        padding: 10px;
+        width: 32%;
+        border-radius: 5px;
+      }
+
+      .dob {
+        margin-top: 15px;
+      }
+
+      .gender {
+        margin-top: 15px;
+      }
+
+      span {
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .tandc, .button {
+        margin-top: 5px;
+
+      }
+
+
+    </style>
+    
+    <title>Sign-Up Form</title>
+
+  </head>
+
+  <body>
+
+    <div class="wrap">
+      <form action="" method="" >
+        <!--       
+        action: where you want the form to submit to. 
+        method: (get/post), get - send information to another page on the website, post - save information on a server 
+        -->
+
+        <h2>Sign Up Free</h2>
+
+        <div class="user-info">
+          <input type="text" name="yourname" placeholder="Your Name">
+          <input type="email" name="email" placeholder="Your Email">
+          <input type="number" name="mnumber" placeholder="Mobile Number">
+          <input type="password" name="password" placeholder="Password">
+          <input type="password" name="confirmpassword" placeholder="Conform Password">
+        </div>
+
+        <div class="dob">
+          <div>
+            <span>Date of Birth</span>
+          </div>
+
+          <select name="DoBday" id="dobday">
+            <option>Day</option>
+            <option value="1-10">1-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-31">20-31</option>
+          </select>
+        
+          <select name="DoBmonth" id="dobmonth">
+            <option>Month</option>
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+          </select>
+        
+          <select name="DoByear" id="dobyear">
+            <option>Year</option>
+            <option value="april">1980-2000</option>
+            <option value="may">2000-2010</option>
+            <option value="june">2010-2020</option>
+          </select>
+        </div>
+
+        <div class="gender">
+          <input type="radio" name="male" value="male"> 
+          <labe>Male</labe>
+
+          <input type="radio" name="female" value="female"> 
+          <labe>Female</labe>
+        </div>
+        
+        <div class="tandc">
+          <input type="checkbox"> 
+          <label>I Agree To The Terms of Use</label> 
+        </div>
+
+        
+        <div class="button">
+          <input type="submit" value="Submit Now" id="btn">
+        </div>
+
+      </form>
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+  </body>
+
+</html>

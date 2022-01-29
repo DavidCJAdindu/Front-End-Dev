@@ -1,0 +1,191 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      body {
+        box-sizing: border-box;
+      }
+
+      header {
+        text-align: center;
+        margin: 100px 0 40px 0;
+      }
+
+      #box{
+        height: 350px;
+        width: 50%;
+        margin: auto;
+        border: 1px solid #000;
+      }
+
+      #from-to {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .converter {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 30px 0;
+      }
+
+      input {
+        height: 20px;
+      }
+
+      select {
+        width: 48px;
+        height: 25px;
+      }
+
+      button {
+        width: 80px;
+        border-radius: 5px;
+        border: 1px solid #000;
+      }
+
+    </style> 
+ 
+    <!-- Website Title -->
+    <title>Unit Converter</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Unit Converter</h1>
+    </header>
+
+    <div id="box">
+
+      <div id="from-to">
+        <h2>From:</h2>
+        <h2>To:</h2>
+      </div>
+
+      <div class="converter">
+
+        <div class="unit">
+
+          <select id="kg">
+            <option id="kg">Kg</option>
+            <option id="lbs">Lbs</option>     
+          </select>
+          <input type="text" id="" placeholder=" e.g. kilograms">
+
+        </div>
+
+        <button>Convert</button>
+
+        <div class="unit">
+
+          <select id="lbs">
+            <option id="lbs">Lbs</option>
+            <option id="kg">Kg</option>     
+          </select>
+          <input type="text" id="" placeholder=" e.g. pounds">
+
+        </div>
+
+      </div>
+
+      <div class="converter">
+
+        <div class="unit">
+
+          <select id="celcius">
+            <option id="cel">°C</option>
+            <option id="fah">°F</option>     
+          </select>
+          <input type="text" id="" placeholder=" e.g. celcius">
+
+        </div>
+
+        <button>Convert</button>
+
+        <div class="unit">
+
+          <select id="fahrenheit">
+            <option id="fah">°F</option>
+            <option id="cel">°C</option>    
+          </select>
+          <input type="text" id="" placeholder=" e.g. fahrenheit">
+
+        </div>
+
+      </div>     
+
+      <div class="converter">
+
+        <div class="unit">
+
+          <select id="km">
+            <option id="km">Km</option>
+            <option id="m">Ml</option>     
+          </select>
+          <input type="text" id="" placeholder=" e.g. kilometers">
+
+        </div>
+
+        <button>Convert</button>
+
+        <div class="unit">
+
+          <select id="miile">
+            <option id="m">Ml</option>
+            <option id="km">Km</option>     
+          </select>
+          <input type="text" id="" placeholder=" e.g. miles">
+
+        </div>
+
+      </div>
+
+      <div class="converter">
+
+        <div class="unit">
+
+          <select id="l">
+            <option id="l">L</option>
+            <option id="gal">Gal</option>     
+          </select>
+          <input type="text" id="" placeholder=" e.g. litres">
+
+        </div>
+
+        <button>Convert</button>
+
+        <div class="unit">
+
+          <select id="gal">
+            <option id="gal">Gal</option>
+            <option id="l">L</option>     
+          </select>
+          <input type="text" id="" placeholder=" e.g. gallons">
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="converter.js"> </script> 
+    <!-- <script>
+      alert("Welcome to my Unit Converter!");
+    </script> -->
+
+  </body>
+
+</html>

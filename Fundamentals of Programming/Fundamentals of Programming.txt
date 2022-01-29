@@ -1,0 +1,241 @@
+Fundamentals of Programming 
+
+- Programming is all about Logical Thinking!
+- Programming is a controlled execution of operations. 
+
+
+> Real World Analogy
+- A Refrigerator 
++ While plugged into the outlet
++ Check temperature
++ If too warm, start engine
++ If too cold, stop engine 
++ Wait 1 minute
+
+--> Sofware Example
+    while running {
+      check Temp
+      if temp > maxTemp start engine
+      else if temp < minTemp stop engine
+      Wait 1 minute
+    }
+
+
+
+-- Data Types --
+> Numbers - Integer / Float
+> Char / String
+> Array / List - a collection of data types
+> Hash/ Dictionary - also known as Objects
+
+>> Integers / Floats
+- Integers are whole numbers, e.g. 10
+- Floats are numbers with decimal precision, e.g. 5.2
+- Operations between two Integers will return an Int. Opertions between to Floats will return a Float, operations between an Int and a Float will return a Float. 
+
+>> Char / String
+- Char is a single Character, e.g. 'a'
+- String is a collection of Characters 'abcd'
+
+>> Array / List
+- Arrays also know as Lists, are a collection of data types. Numbers and or Char/Strings.
+- Some languages allow for mixed data types, others only allow one type of data type for an array.
+
+>> Hash / Dictionary
+- Also known as Objects
+- Used for storing  relational information
+- They have a key and a value, e.g. person = {'name':'John', 'surname':'Smith', 'age',50}
+
+
+
+-- Variables --
+> Variables are containers that store data values, 
+e.g. "NAME OF VARIABLE" = 'VALUE' ;  firstName = 'John'
+- Some langauges make you define the data type, 
+e.g [data type] "NAME OF VARIABLE" = 'VALUE' ; String firstName = 'John'
+
+- Variable names can not start with a number or special symbol.
+- You can use an underscore (_) , e.g. first_name
+- Best practice is to use camel case naming, e.g. firstName
+- Variables can be overridden. 
+
+
+
+
+-- Operators -- 
+> Used to conduct mathematical operations and computations on data types. 
+
++ : Addition 
+- : Subtraction
+* : Multiplication 
+/ : Division
+% : Modulus (remainder)
+
+
+
+
+-- Control Flow -- 
+- To be able to form control flow you need to use Relational Operations
+> Relational Operations
+== : equal
+!= : not equal 
+< : less than 
+> : greater than
+>= : greater or equal than
+<= : less or equal than  
+
+
+>> The 'if' Statement 
+- used to compare two values and execute code. 
+Syntax: if(condition){
+  //  block of code to be executed if the condition is true
+        }
+
+E.g.    x = 5
+        if (x > 0) {
+          print "Hello, World"
+        }
+- If the value of the variable x is greater than 5 then the code inside the curly braces will execute 
+
+
+>> The 'if-else' Statement 
+- If the if statement isnt executed the else statement will.  
+Syntax: if(condition){
+  //  block of code to be executed if the condition is true
+        } else {
+          //  block of code to be executed if the condition is false
+        }
+
+E.g.    x = 5
+        if (x > 10) {
+          print "Hello, World"
+        } else {
+          print "Goodbye, World"
+        }
+- If the value of the variable x is greater than 5 then the code inside the curly braces will execute, else the code in the else statement will be executed. 
+
+
+>> The 'else-if' Statement 
+- If the if statement isnt executed the else-if statement will execute, if both the if & else-if statements dont execuse the else statement will.  
+Syntax: if(condition1){
+//  block of code to be executed if the condition1 is true
+        } else if(condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+          } else {
+    //  block of code to be executed if the condition1 is false and condition2 is false
+}
+   
+E.g.    x = 5
+        if (x > 10) {
+          print "Hello, World"
+        } else if (x < 10) {
+          print "Goodbye, World"
+        } else {
+          print "I <3 Programming"
+        }
+- If the value of the variable x is greater than 5 then the code inside the curly braces will execute, else, if the code in the else-if statement will be executed. The else statement is excuted if both if and else-if statements arent executed. 
+
+>> The 'Switch' Statement 
+- Used to select one of mn code blocks to be executed
+Syntax: switch(expression) {
+          case x:
+            // code block
+            break;
+          case y:
+            // code block
+            break;
+          default:
+            // code block
+        }
+
+E.g.    num = 2
+        switch (num) {
+          case 0:
+            print "Value is 0"
+            break;
+          case 1:
+            print "Value is 1"
+            break;
+          case 2:
+            print "Value is 2"
+            break;
+          case 3:
+            print "Value is 3"
+          default;
+            print "Value not found"
+        }
+
+
+> Logical Operators
+- Allow you to concatinate or compare two conditions
+! : Logical not - Reverts the value of the previous evaluation 
+&& : 	Logical and - Next statement evaluated only if the previous is true. All statements must be true to go into code block. 
+|| : Logical or - Next statement evaluated only if the previous is false. As soon as one statement is true we go into code block.
+
+
+
+-- Iteration --
+- Constructs that allow code to be repeated based on some rules.
+
+> Common Constructs
+- while Loop
+- for Loop
+- foreach Loop
+
+
+>> While Loop
+- Executes code as long as the condition is true
+Syntax: while(condition) {
+          // codeblock
+        }
+
+
+>> For Loop
+- Provides a shorthand way to repeat code
+
+Syntax: for (i = 0; i < value; i+=1) {
+          // codeblock
+        }
+- i = 0; Initialization - where the loop starts 
+- i < value; Condition 
+- i+=1 Increment 
+
+
+>> Foreach Loop
+- Available in some langauges
+- Quick way to iterate over arrays or lists
+
+Syntax: myList = ['hi','bye','now','then']
+        foreach item in myList {
+          // codeblock
+        }
+
+
+
+-- Functions --
+- Functions are constructs that allow you to pre-package code that can be executed through a simple function call.
+- They are very useful to avoid having repetitive code. 
+- Increase code maintainability. 
+- Functions are created in different ways in different programming languages. 
+
+- More than likely you will follow this syntax:
+  [function-keyword] function-name(parameters) {
+    // codeblock to be executed
+  }
+
+- To call a function you would follow this syntax most of the time:
+  function-name(arguments)
+
+-- When should I use Functions?
+- If you need to use the same code in more than one location, then you should turn it into a function. 
+- If it is a piece of code that could be usedful in other scripts.
+- If you are developing a library or module. 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+p {
+  font-family: 'Dancing Script', cursive;
+  margin-left: 1.5%;
+  font-size: 40px;
+  font-weight: 400;  
+  border-bottom: 2px solid red;
+  width: 30%;
+  padding-bottom: 5px;
+}
+
+img {
+  height: 350px;
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+}
+

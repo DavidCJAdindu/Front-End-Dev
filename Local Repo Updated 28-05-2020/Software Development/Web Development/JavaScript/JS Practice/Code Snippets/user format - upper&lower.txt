@@ -1,0 +1,63 @@
+// This code asks the user if they want their input returned in lower/uppercase format, asks the user for text and outputs the text in desired format. 
+
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+})
+
+// ask the user if he wants capital of lowercase text
+// if the user wants capital text ask for input
+// if the user wamts lowercase text ask for input 
+
+function userInput() {
+
+  readline.question('Do you want Uppercase or Lowercase text? \n', (text) => {
+
+    switch(text) {
+    case 'Uppercase':
+      upper();
+      break;
+    case 'uppercase':
+      upper();
+      break;
+    case 'Lowercase':
+      lower();
+      break;
+    case 'lowercase':
+      lower();
+      break;
+    default:
+      console.log('Please enter valid text');
+      userInput();
+    }
+
+  })
+
+}
+
+function upper() {
+
+  readline.question('Enter some text to make it uppercase \n', (text) => {
+    console.log(text.toUpperCase());
+    readline.close()
+  })
+
+}
+
+function lower() {
+
+  readline.question('Enter some text to make lowercase \n', (text) => {
+  console.log(text.toLowerCase());
+  readline.close()
+  })
+
+}
+
+userInput();
+
+
+
+
+
+
+

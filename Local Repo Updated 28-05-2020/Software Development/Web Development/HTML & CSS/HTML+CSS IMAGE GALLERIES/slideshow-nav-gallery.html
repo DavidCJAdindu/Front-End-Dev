@@ -1,0 +1,200 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: red;
+      }
+
+      .slidershow {
+        width: 700px;
+        height: 400px;
+        overflow: hidden;
+      }
+      .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); 
+      }
+
+      .navigation {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+      }
+
+      .bar {
+        width: 50px;
+        height: 10px;
+        border: 2px solid #fff;
+        margin: 6px;
+        cursor: pointer;
+        transition: 0.4s;
+      }
+
+      .bar:hover {
+        background: #fff;
+      }
+
+      input[name="r"] {
+        position: absolute;
+        visibility: hidden;
+      }
+
+      .slides {
+        width: 1000%;
+        height: 100%;
+        display: flex;
+      }
+
+      .slide {
+        width: 10%;  
+        transition: 0.6s; 
+      }
+
+      .slide img {
+        width: 100%;
+        height: 100%;
+      }
+
+      #r1:checked ~ .s1 {
+        margin-left: 0;
+      }
+     
+      #r2:checked ~ .s1 {
+        margin-left: -10%;
+      }
+
+      #r3:checked ~ .s1 {
+        margin-left: -20%;
+      }
+  
+      #r4:checked ~ .s1 {
+        margin-left: -30%;
+      }
+
+      #r5:checked ~ .s1 {
+        margin-left: -40%;
+      }
+
+      #r6:checked ~ .s1 {
+        margin-left: -50%;
+      }
+
+      #r7:checked ~ .s1 {
+        margin-left: -60%;
+      }
+
+      #r8:checked ~ .s1 {
+        margin-left: -70%;
+      }
+
+      #r9:checked ~ .s1 {
+        margin-left: -80%;
+      }
+
+
+    </style>
+
+    <title>Slideshow Navigation Gallery</title>
+
+  </head>
+
+  <body>
+
+    <div class="slidershow middle">
+
+      <div class="slides"> 
+
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <input type="radio" name="r" id="r6">
+        <input type="radio" name="r" id="r7">
+        <input type="radio" name="r" id="r8">
+        <input type="radio" name="r" id="r9"> 
+
+
+        <div class="slide s1">
+          <img src="imgs/manu20.jpg" alt="Manu2020">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu19.jpg" alt="Manu2019">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu18.png" alt="Manu2018">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu17.png" alt="Manu2017">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu16.jpg" alt="Manu2016">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu15.jpg" alt="Manu2015">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu14.jpg" alt="Manu2014">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu13.jpg" alt="Manu2013">
+        </div>
+
+        <div class="slide">
+          <img src="imgs/manu12.jpg" alt="Manu2012"> 
+        </div> 
+
+      </div>
+
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+        <label for="r5" class="bar"></label>
+        <label for="r6" class="bar"></label>
+        <label for="r7" class="bar"></label>
+        <label for="r8" class="bar"></label>
+        <label for="r9" class="bar"></label> 
+      </div>
+
+    </div>
+  
+    <!-- JavaScript -->
+
+    <!-- <script src="NAME OF JAVASCRIPT FILE .JS"> </script> -->
+
+    <!--
+    <script>
+      alert("Hello, world");
+    </script> 
+    -->
+
+    
+
+  </body>
+
+</html>

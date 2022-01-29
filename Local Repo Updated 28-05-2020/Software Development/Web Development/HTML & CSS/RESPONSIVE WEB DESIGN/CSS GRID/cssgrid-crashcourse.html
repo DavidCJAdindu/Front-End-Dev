@@ -1,0 +1,172 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+
+      .wrapper {
+        background: #eee;
+        padding: 1em;
+        margin-bottom: 100px;
+      }
+
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+
+      }
+
+      .wrapper1 {
+        display: grid; 
+        grid-template-columns: 70% 30%; /* main div & sidebar div */
+        grid-column-gap: 1em; /* add gap to the grid column*/
+        grid-row-gap: 1em; /* add gap to the grid row*/
+        /* grid-gap: 1em; same effect as above */
+      }
+
+      .wrapper2 {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; fractional columns*/
+        grid-template-columns: repeat(3, 1fr); /* shorthand of above */
+        grid-gap: 1em;
+        /* grid-auto-rows: 100px; */
+        grid-auto-rows: minmax(100px, auto); /* flexible height */
+      }
+
+      .nested {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 90px;
+        grid-gap: 1em;
+    
+      }
+
+      .nested > div {
+        border: 1px #333 solid;
+        padding: 1em;
+      }
+
+      .wrapper3 {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1em;
+        justify-items: stretch; /* align items (vertically)*/
+        align-items: center; /* align items (horizontally)*/
+      }
+
+      .box1 {
+        /* align-self: start; */
+        border: 1px solid black;
+        grid-column: 1/3;
+        grid-row: 1/3;
+
+      }
+
+      .box2 {
+        /* align-self: end; */
+        border: 1px solid black;
+        grid-column: 3;
+        grid-row: 1/3;
+
+      }
+
+      .box3 {
+        /* justify-self: end; */
+        border: 1px solid black;
+        grid-column: 2/4;
+        grid-row: 3;
+
+      }
+
+      .box4 {
+        border: 1px solid black;
+        grid-column: 1;
+        grid-row: 2/4;
+
+      }
+
+    </style>
+
+    <title>CSS Grid Crash Course</title>
+
+  </head>
+
+  <body>
+
+  <!-- CSS Grid is best used for two dimensional layots  -->
+
+  <div class="wrapper wrapper1">
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cumque sapiente molestiae delectus quae est minima vitae velit! Adipisci cupiditate quo reiciendis animi rerum nobis placeat tempora ratione dolorum maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias illo fugit perspiciatis nulla impedit. Nulla harum fugit nam libero incidunt quo aspernatur exercitationem rem cum quas quidem consequuntur, eum odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sint a, totam eaque eligendi, saepe, provident vero omnis fuga consequatur quos tenetur consequuntur dolor quasi? Ratione in recusandae omnis sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error necessitatibus repudiandae assumenda quas tempore sequi eius distinctio nam, quae quis tempora debitis animi laborum est enim nihil corporis sit? Repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, corporis inventore saepe nulla eos odit dolorem nihil magnam, amet velit temporibus eius fuga nesciunt iusto possimus quos, accusamus earum assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus assumenda veniam cupiditate, ullam in enim totam officiis aliquid eaque quam similique, quis, voluptatem neque eius sapiente. Assumenda, dolores maxime? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dignissimos eaque maiores. Sed nulla minus illo at dolore incidunt, alias quo esse in magni! Quisquam, tempore. Illo ut odio sequi.
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, perspiciatis similique fugiat eaque facere voluptas sint omnis ipsum animi eos sit quas dicta neque excepturi error sunt provident ducimus. Nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis qui voluptatibus minima, sequi aliquam est necessitatibus labore minus quo eveniet excepturi deserunt debitis nemo fuga harum in obcaecati omnis.
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cumque sapiente molestiae delectus quae est minima vitae velit! Adipisci cupiditate quo reiciendis animi rerum nobis placeat tempora ratione dolorum maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias illo fugit perspiciatis nulla impedit. Nulla harum fugit nam libero incidunt quo aspernatur exercitationem rem cum quas quidem consequuntur, eum odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sint a, totam eaque eligendi, saepe, provident vero omnis fuga consequatur quos tenetur consequuntur dolor quasi? Ratione in recusandae omnis sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error necessitatibus repudiandae assumenda quas tempore sequi eius distinctio nam, quae quis tempora debitis animi laborum est enim nihil corporis sit? Repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, corporis inventore saepe nulla eos odit dolorem nihil magnam, amet velit temporibus eius fuga nesciunt iusto possimus quos, accusamus earum assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus assumenda veniam cupiditate, ullam in enim totam officiis aliquid eaque quam similique, quis, voluptatem neque eius sapiente. Assumenda, dolores maxime? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dignissimos eaque maiores. Sed nulla minus illo at dolore incidunt, alias quo esse in magni! Quisquam, tempore. Illo ut odio sequi.
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, perspiciatis similique fugiat eaque facere voluptas sint omnis ipsum animi eos sit quas dicta neque excepturi error sunt provident ducimus. Nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis qui voluptatibus minima, sequi aliquam est necessitatibus labore minus quo eveniet excepturi deserunt debitis nemo fuga harum in obcaecati omnis.
+    </div>
+
+  </div>
+
+  <div class="wrapper wrapper2">
+
+    <div>
+      lorem ipsum dolar sit
+    </div>
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi veritatis quaerat accusamus earum eos natus quasi nam neque ullam accusantium eius minus quas, commodi architecto nobis. Illo illum asperiores odio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui repudiandae possimus fugiat ipsum similique. Aliquid sed debitis ducimus architecto modi? Suscipit excepturi et unde quidem dolor nulla similique corporis officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab quod quis veniam odio esse vero ad eum quasi. Maxime numquam quae sit dignissimos consectetur, iste aliquid laborum voluptates distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ut minus eius, culpa et ipsum corrupti dolor animi deserunt veritatis, optio tempora, labore asperiores. Accusamus inventore dolores in excepturi voluptate!
+    </div>
+    <div class="nested">
+      <div>lorem</div>
+      <div>lorem</div>
+      <div>lorem</div>
+      <div>lorem</div>
+      <div>lorem</div>
+      <div>lorem</div>
+      <div>lorem</div>
+      <div>lorem</div>
+      <div>lorem</div>
+    </div>
+      <div>
+      lorem ipsum dolar sit
+    </div>
+    <div>
+      lorem ipsum dolar sit
+    </div>
+    <div>
+      lorem ipsum dolar sit
+    </div>
+    <div>
+      lorem ipsum dolar sit
+    </div>
+
+  </div>
+
+  <div class="wrapper wrapper3">
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+    <div class="box box4">Box 4</div>
+  </div>
+
+
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,222 @@
+100 DAY CODING CHALLENGE 
+
+- Use this template for your coding study and practice.
+- Take notes to stay active when learning 
+- Use projects to come up with new ideas for projects based on the        projects made. 
+- KEEP ON TRACK WITH THIS GUIDE 1 HR A DAY FOR THE NEXT 10 DAYS. 
+
+
+
+1. Learn Windows Command Line. 
+- Practice commands on the command line. 
+
+** Videos to use ** 
++ https://youtu.be/8JzW1l4wfmQ - Learn command prompt in 15 minutes <complete>
++ https://youtu.be/MBBWVgE0ewk - Windows Command Line Tutorials <4/9>
++ https://youtu.be/7yW6Ybj6tOk - 15 Command Prompt Secrets and Tricks in Windows
++ https://youtu.be/TdWPEN_57mI - 10 Cool Command Prompt Tricks You Should Know
++ https://youtu.be/xoX4nwRHpXE - Basic Skills for Entry Level I.T. Jobs - Command Prompt Part 1 - 3
+
+
+
+
+2. Web Developments & How the Internet Works
+- Take notes
+
+** Videos to use ** 
++ https://youtu.be/e4S8zfLdLgQ - How the Internet Works for Developers    Pt 1 - Overview &  Frontend
+
++ https://youtu.be/FTAPjr7vgxE - How the Internet Works for Developers    Pt 2 - Servers & Scaling
+
++ https://youtu.be/hJHvdBlSxug - How The Web Works - The Big Picture
+
++ https://youtu.be/FXqTHsPaY0A - Basic Web Development Concepts
+
+
+
+3. Learn the Google Chrome Developer Tools.
+- Open the developer tools and mess around with it and change a few things. 
+
+** Videos to use ** 
++ https://youtu.be/x4q86IjJFag - Google Chrome Developer Tools Crash Course 
++ https://youtu.be/ucWpMZoB7Jg - CHROME DEVTOOLS 101 TIPS AND TRICKS FOR WEB DEVS
++ https://youtu.be/Pc6rnTFjJZI - 12 Chrome Extensions For Web Developers & Web Designers
++ https://youtu.be/qzpO2rBdNoQ - The Top 8 Chrome Extensions for Frontend Developers in 2019
+
+
+
+
+4. Learn how to use VS Code.
+- Click around on the interface and get used to the enviroment.
+
+** Videos to use ** 
++ https://www.youtube.com/playlist?                                      list=PLC3y8-rFHvwhleivq1QohBZN4d8IdzG3c - VS Code Tutorial
++ https://youtu.be/u21W_tfPVrY - VS Code Top-Ten Pro Tips
++ https://youtu.be/ULssP63AhPw - VSCode Extensions | Top    5 VSCode     Extensions!
++ https://youtu.be/LdF2RcelRg0 - 15 VS Code Extensions For Front-End Developers in 2019
++ https://youtu.be/bJiIzz8mFMs - Visual Studio Code: HTML, CSS & JS      Tips
++ https://youtu.be/4NfFFsQC77M - Visual Studio Code Web Dev Setup In    6 Minutes - (2019)
++ https://youtu.be/Xa5EU-qAv-I - VSCode Keyboard Shortcuts For Productivity
+
+
+5. Learn HTML & CSS
+- Recap on the fundamentals and practice building projects. 
+
+** Videos to use **
++ https://youtu.be/UB1O30fR-EE - HTML Crash Course For Absolute           Beginners
++ https://youtu.be/mveMwXsM94w - 8 principles for clean html code
++ https://youtu.be/yfoY53QXEnI - CSS Crash Course For Absolute Beginners
+
++ https://youtu.be/XQs5KcUj-Do - HTML, CSS - Lecture 1 - CS50's Web       Programming 
+
++ https://youtu.be/kMT54MPz9oE  - HTML and CSS Tutorial - Create a        Website for Beginners
+
+{ CSS Tutorials 
++ https://youtu.be/jV8B24rSN5o - CSS Grid Layout Crash Course
++ https://youtu.be/FTlczfR82mQ - Learn Flexbox In 20 Minutes | Learn HTML & CSS | Flexbox Tutorial
++ https://youtu.be/JJSoEo8JSnc - Flexbox CSS In 20 Minutes
++ https://youtu.be/k32voqQhODc - Flexbox Tutorial (CSS): Real Layout Examples
+}
+
+{ HTML & CSS Websites to build 
++ https://youtu.be/kbLfWKGVsMQ - How to Create A Responsive Website Using HTML and CSS | Learn HTML and CSS | HTML Tutorial
++ https://youtu.be/5bMdjkfvONE - HTML5 & CSS Development: Learn How to Build a Professional Website | Udemy, Jordan Hudgens
++ https://youtu.be/Wm6CUkswsNw - Build An HTML5 Website With A Responsive Layout
++ https://youtu.be/EwmvBnR_xtA - Design & Build A Website Crash Course - HTML & CSS
++ https://youtu.be/ZeDP-rzOnAA - Build A Responsive Website With HTML & CSS Tutorial
++ https://youtu.be/-2LtZRi6Q0s - How To Make A Website Using HTML And CSS | Website Design In HTML And CSS
++ https://youtu.be/aDqX3w38kwA - Latest Website Design Using HTML And CSS Step By Step | How To Make A Website
++ https://youtu.be/DTEY490qmWE - How To Make Website Using HTML And CSS | Responsive Web Design Tutorial
++ https://youtu.be/qphme6ULtq0 - How To Make Image Animation On Website Using HTML And CSS | CSS Animation Tutorial
++ https://youtu.be/_CR0LVaGIQI - How To Make Website With Animation Using HTML and CSS | Web Design In HTML CSS
++ https://youtu.be/_DKnK3G_whU - How To Make Animated Website Design Using HTML And CSS | CSS Animation Tutorial
++ https://youtu.be/juRXbGDweo8 - How To Make A Website Using HTML And CSS | Website Header Design In HTML CSS
++ https://youtu.be/36jRXMsIFuA - Online Store E-commerce Responsive Website Using HTML/CSS
++ https://youtu.be/xE0MQyn-MGo - How To Make Website Uisng HTML And CSS | Create A Website Step By Step
++ https://youtu.be/99vHH_6F0Ko - How To Make Website Using HTML CSS | Start To End | Step By Step Tutorial
++ https://youtu.be/XsEnj-1hG2o - Build a Responsive, Mobile First Website - HTML5 & CSS3
++ https://youtu.be/HV7DtH3J2PU - Animated Login Form Using Only HTML & CSS 
++ https://youtu.be/nwmW9oHNmZ8 - Advanced Login with Carousel Using HTML/CSS
++ https://youtu.be/wIx1O5Y5EB4 - Pluralsight Login Page Clone - HTML & CSS
++ https://youtu.be/L5WWrGMsnpw - How To Make Login & Registration Form Using HTML And CSS Step By Step
++ https://youtu.be/lacpTQuE9u8 - How To Make Signup Form Using HTML And CSS | Create Sign Up Form In HTML CSS
++ https://youtu.be/IxRJ8vplzAo - Input Animations With HTML And CSS
++ https://youtu.be/2XjTnfRsNGs - How To Make Image Slider Using HTML And CSS With Animations Step By Step Tutorial
++ https://youtu.be/5lrLlcoRFKI - How To Add 360 Degree Images on HTML Website | Embed 360° Images On website
++ https://youtu.be/c_g0Q_QWH_8 - How To Create Image Hover Effect On Website Using HTML CSS
++ https://youtu.be/Gf81XHerzJo - How To Make Image Gallery Using HTML And CSS | Animated Image Gallery Design For HTML Website
++ https://youtu.be/-DQP4fpmJpc - How To Create Chart Or Graph On HTML CSS Website | Google Charts Tutorial
++ https://youtu.be/uGgRhKN5_Ao - How To Create 3D Flip Effect In HTML And CSS | Flip Card Design HTML And CSS Tutorial
++ https://youtu.be/eU-7UmXZPGY - Create Step Progress Bar Using HTML And CSS | HTML And CSS Tutorials For Beginners
++ https://youtu.be/ClLWGhUnMbo - How To Create Table In HTML And CSS | HTML Website Tutorials
++ https://youtu.be/fDm0WJ_66d0 - Social media buttons with amazing animation on hover using html & css
++ https://youtu.be/I7M3V5sBMQc - Awesome Newsletter Box Using Only HTML & CSS
++ https://youtu.be/uiBwb1MoRno - Animated Share Button Using Only HTML & CSS
++ https://youtu.be/ldkMGzixh4c - Responsive Contact Section Using HTML & CSS
++ https://youtu.be/6EtdWnbsbyA - Loading Animation Using Only HTML & CSS
++ https://youtu.be/NyLtmBfLW48 - Awesome pricing table using only HTML & CSS
++ https://youtu.be/R-qsT4HiyAs - Amazing Effect on hover using only html & css
++ https://youtu.be/Vef9bxTilCU - Scroll top button - back to top Using Only HTML & CSS
++ https://youtu.be/pl2tpB9VUcE - Put an Image in Text Using HTML & CSS
++ https://youtu.be/LdcFQJvjdqI - Metro UI Animations Using Only HTML & CSS
++ https://youtu.be/v1PeTDrw6OY - Awesome CSS Search Box Using Only HTML & CSS
+
++ https://youtu.be/gW0dwO2JNmE - How To Make Website With Animation | Moving Car Using CSS Animation
++ https://youtu.be/zHUpx90NerM - CSS3 Animation & Transitions Crash Course
++ https://youtu.be/stk178PsOgQ - Animaton Effect In CSS | CSS Animation Tutorial Step By Step For Beginners
++ https://youtu.be/gWai7fYp9PY - Learn To Build An SVG Animation With CSS
+}
+
+6. Learn Javascript 
+- learn fundamentals using videos and w3s and practice building           websites 
+
+{ JavaScript Learning 
++ https://youtu.be/nItSSTwBvSU - What is JavaScript?
++ https://youtu.be/b1ieJtIx1NY - How Javascript works
++ https://youtu.be/C9Oax_TQaok - Javascript Explained! Javascript PRIMER video for beginners.
++ https://youtu.be/955L9-NoBoE - What is JavaScript? | lynda.com overview
++ https://youtu.be/hdI2bqOjy3c - JavaScript Crash Course For Beginners 
++ https://youtu.be/vEROU2XtPR8 - JavaScript Fundamentals For Beginners
++ https://youtu.be/W6NZfCO5SIk - JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour [2019]
++ https://youtu.be/WZQc7RUAg18 - ES6 Javascript Tutorial For Beginners | ES6 Crash Course
++ https://youtu.be/ZpU3mEaK0_w - JavaScript Tutorial for Beginners (Complete) - Maximilian Schwarzmuller
++ https://youtu.be/xMs4ER1rcLg - JavaScript - Lecture 5 - CS50's Web Programming with Python and JavaScript
+
+
+
++ https://youtu.be/0ik6X4DJKCc - JavaScript DOM Crash Course - Part 1 (Part 1-4)
++ https://youtu.be/vDJpGenyHaA - JavaScript OOP Crash Course (ES5 & ES6)
++ https://youtu.be/Cm3U-NgJb9I - Before Learning a JavaScript Framework...
+}
+
+{ Javascript Projects 
++ https://youtu.be/jaVNP3nIAv0 - Web Development Tutorial - JavaScript, HTML, CSS
++ https://youtu.be/NYq9J-Eur9U - Pure JavaScript - Learn JavaScript By Building A Real-World Application From Scratch 
++ https://youtu.be/RHj5bdrfCr8 - Build Complete Responsive Website Design using HTML 5 / CSS 3 /JavaScript
++ https://youtu.be/oRmQN244Ir0 - Create a Split Landing Page With HTML, CSS & JS
++ https://youtu.be/NomcZddqBfs - How To Make Login Form With Password Toggle In HTML CSS JS
++ https://youtu.be/TD3zXwYoIC4 - How To Make Image Gallery For Website Using HTML CSS And JavaScript
++ https://youtu.be/gXkqy0b4M5g - Responsive Navigation Bar Tutorial | HTML CSS JAVASCRIPT
++ https://youtu.be/AKmoccuRiN4 - Page Animations With Javascript Tutorial
++ https://youtu.be/gE-Yuu2eEio - Fullpage Animations With Javascript Tutorial
++ https://youtu.be/wc5k2AMPED0 - Simple Form Animation With Javascript Tutorial | HTML Forms | Learn Javascript
+https://youtu.be/P7t13SGytRk - Build a Netflix Landing Page Clone with HTML, CSS & JS
++ https://youtu.be/NZNhuzyeD-Y - How to create a CSS Preloader Animation With Javascript Tutorial | Javascript Preloader Tutorial
++ https://youtu.be/JDiurjhpOXA - Speed Coding | HTML, CSS, JS - Calculator
++ https://youtu.be/JaMCxVWtW58 - JavaScript BookList App | No Frameworks
++ https://youtu.be/m_HJ3juuFvo - Javascript Project Tutorial: Budget App
++ https://youtu.be/YeFzkC2awTM - JavaScript Shopping Cart Tutorial for Beginners
++ https://youtu.be/wPElVpR1rwA - Build A Weather App With Vanilla Javascript Tutorial | Javascript For Beginners
++ https://youtu.be/2VJlzeEVL8A - Build A Music App With Javascript Tutorial
++ https://youtu.be/qvypCd2Vl4s - Digital Clock in JS | JavaScript Tutorials | Web Development Tutorials
++ https://youtu.be/ZOOrhOJQ4q0 - Building a Messaging App | Javascript | Tutorial 15
++ https://youtu.be/qWPtKtYEsN4 - Javascript Rock Paper Scissors Game Tutorial | Web Development Tutorial
++ https://youtu.be/WR_pWXJZiRY - Rock Paper Scissors Game - UI & JavaScript
++ https://youtu.be/NJVJRFF-Y6U - Countdown clock in JS using HTML & CSS | JavaScript Tutorials | Web Development Tutorials
++ https://youtu.be/QxQRtwAtqKE - Create your own Progess Bar in HTML, CSS & JavaScript | Web Development Tutorial
++ https://youtu.be/jhQPGLu9vV0 - Animated Sticky Header using HTML CSS & Javascript (Web Design Tutorial)
++ https://youtu.be/mkqRpPdnggw - Responsive gallery section Using HTML CSS & JS
++ https://youtu.be/afoxd5b0bJo - Modern Image Gallery With ES6 Vanilla JavaScript
++ https://youtu.be/AixAmLWzXYg - Eyes follow mouse cursor using HTML CSS & Javascript
++ https://youtu.be/G7u53KX9i48 - Build Tetris Game with HTML, CSS, and Javascript
++ https://youtu.be/H2aW5V46khA - Write a Tetris game in JavaScript
++ https://youtu.be/w-OKdSHRlfA - Create a Platformer Game with JavaScript - Full Tutorial
++ https://youtu.be/Yw-SYSG-028 - Build A Speed Typing Game In JavaScript
++ https://youtu.be/CI2GwL--ll8 - how to build a simple calculator using javascript
++ https://youtu.be/b8sUhU_eq3g - To Do List App in JavaScript [beginners]
++ https://youtu.be/oMBXdZzYqEk - Build A Meditation App With Javascript HTML & CSS!
++ https://youtu.be/P2TcQ3h0ipQ - JavaScript Tic Tac Toe Project Tutorial - Unbeatable AI w/ Minimax Algorithm
++ https://youtu.be/DIVfDZZeGxM - Learn JavaScript By Building A Bookmarker Application
++ https://youtu.be/9TcU2C1AACw - Code The Snake Game Using JavaScript and HTML5
++ https://youtu.be/ju09womACpQ - Pong in JavaScript (using ES6)
++ https://youtu.be/duNmhKgtcsI - JavaScript Password Generator
++ https://youtu.be/Zxf1mnP5zcw - Google Maps JavaScript API Tutorial
++ https://youtu.be/r-yxNNO1EI8 - YouTube API Project With Authentication
++ https://youtu.be/HwWIKbZ6BE4 - HTML, CSS (programming tutorial): Turn ON & OFF Light Bulb Project
++ https://youtu.be/C22hQKE_32c - Drag & Drop With Vanilla JS
++ https://youtu.be/7ZO2RTMNSAY - Full Screen Image Slider With HTML, CSS & JS
++ https://youtu.be/wWWNrANNO1k - Full Screen Responsive Image Slider | No Libraries
++ https://youtu.be/ydCSSgwZjzs - Create a Custom PDF Viewer With JavaScript
++ https://youtu.be/G1eW3Oi6uoc - Build A Filterable List With Vanilla JavaScript
++ https://youtu.be/6ophW7Ask_0 - Create a Modal With HTML, CSS & JavaScript
+}
+
+
+Learn Git & Github
+- Learn and practice fundamentals 
+
+** Videos to use **
++ https://youtu.be/uUuTYDg9XoI - What is Git and Github?
++ https://youtu.be/w3jLJU7DT5E - What is GitHub?
++ https://youtu.be/NvTw6jfwrlQ - Git & GitHub For Beginners
++ https://youtu.be/SWYqp7iY_Tc - Git & GitHub Crash Course For Beginners
++ https://youtu.be/x0EYpi38Yp4 - GitHub Basics Tutorial - How to Use      GitHub
++ https://youtu.be/0fKg7e37bQE - Github Tutorial For Beginners - Github   Basics for Mac or Windows & Source Control Basics
++ https://youtu.be/USjZcfj8yxE - Learn Git In 15 Minutes
++ https://youtu.be/IHaTbJPdB-s - Learn Git in 20 Minutes
+
+
+
+
+
+

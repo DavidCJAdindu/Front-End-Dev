@@ -1,0 +1,37 @@
+body {
+  margin: 15px auto;
+  width: 55%;
+  border: 20px solid grey;
+  padding: 15px;
+}
+
+#date {
+  text-transform: uppercase;
+  color: #ed2715;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}
+
+#article {
+  font-size: 30px;
+  color: #43788c;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#content {
+  width: 95%;
+  margin: auto;
+}
+
+#leftborder {
+  border-left: 5px solid grey;
+  padding-left: 5px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+
+}

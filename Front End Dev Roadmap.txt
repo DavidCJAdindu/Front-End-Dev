@@ -1,0 +1,53 @@
+FRONTEND WEB-DEV ROADMAP 
+
+-- 100 Days of Coding --
+
+
+20 Days HTML + CSS
+
+- Day 1: Complete Bootstrap 3 tutorial on Youtube & complete image gallery project 
+	~ (Bootstrap 3 tutorial) - https://www.youtube.com/watch?v=P3e24Of44ac&list=PL0eyrZgxdwhx2XiwAfPLTTnEPcUGrPGH-&index=1
+	~ (Image Gallery Project) - https://www.youtube.com/watch?v=gnDOjWUSHks&list=WL&index=4&t=192s
+
+- Day 2: Complete Section 7 on Udemy Web Dev Bootcamp course
+
+- Day 3: Complete Section 8&9 on Udemy Web Dev Bootcamp course
+
+- Day 4: Complete CSS Grid & Flexbox tutorials on Youtube & complete a project using these skills 
+	~ (CSS Grid Layout Crash Course) - https://www.youtube.com/watch?v=jV8B24rSN5o&list=WL&index=30&t=0s
+	~ (Responsive CSS Grid Project) - https://www.youtube.com/watch?v=moBhzSC455o&list=WL&index=31&t=9s
+	~ (CSS Flexbox Crash Course) - https://www.youtube.com/watch?v=JJSoEo8JSnc&list=WL&index=32&t=24s
+	~ (Responsive CSS Flexbox Project) - https://www.youtube.com/watch?v=qlA7dputiNc&list=WL&index=33&t=10s
+
+- Day 5: Complete CSS Animations tutorials on Youtube & complete a project using these skills 
+	~ (CSS Animations & Transitions Crash Course) - https://www.youtube.com/watch?v=zHUpx90NerM&list=WL&index=34&t=0s
+	~ (CSS Animations & Transitions Project) - https://www.youtube.com/watch?v=gW0dwO2JNmE&list=WL&index=35&t=0s
+
+- Day 6: Complete SASS tutorials on Youtube & complete a project using new learned skill
+	~ (Sass Crash Course) - https://www.youtube.com/watch?v=nu5mdN2JIwM
+	~ (Sass Tutorial) - https://www.youtube.com/watch?v=Zz6eOVaaelI&t=246s
+
+- Day 7-14: Build 3-5 projects using HTML&CSS skills learned so far
+ 
+- Day 15&16: Learn Git & Github and start building Github profile 
+ 	~ (Github Tutorial) - https://www.youtube.com/watch?v=nhNq2kIvi9s
+ 
+- Day 17-20: Start planning JS roadmap, round off HTML&CSS learning & work on a few more projects
+ 
+
+
+80 Days Javascript 
+
+- Javascript Basics (Section 10-14 Udemy Course) + Youtube tutotial ( https://www.youtube.com/watch?v=2nZiB1JItbY&list=PLDyQo7g0_nsX8_gZAB8KD1lL4j4halQBJ )
+
+- Leetcode JS
+
+- Javascipt DOM (Section 15-17 Udemy Course) + Youtube tutorial ( https://www.youtube.com/watch?v=0ik6X4DJKCc&t=310s )
+
+- JQuery (Section 18-21 Udemy Course) 
+
+- Front End Framework - React, Vue or Angular 
+
+- Full Front End Projects  
+
+

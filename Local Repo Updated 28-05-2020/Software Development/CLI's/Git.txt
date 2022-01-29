@@ -1,0 +1,24 @@
+Git & Github 
+
+> What is Git?
+- Git is a version control system for tracking changes in computer files.
+
+> Concepts of Git
+- Keeps track of code history.
+- Takes 'snapshots' of your files.
+- You decide when to take a snapshot by making a 'commit'.
+- You can visit any snapshot at any time.
+- You can stage files before commiting.
+
+> Git Basic Commands <
+- 'git init' : initialize local git repository.
+- 'git add <file>' : add file(s) to staging area. 
+  - 'git add (.)' : adds all files in directory
+  - 'git add (*.filetype)' : adds all files of the same type
+- 'git status' : see what you have in the staging area and ready for commit.
+- 'git commit' / 'git commit -m 'CHANGES MESSAGE'': commit changes in the staging area into the local git repository.
+- 'git push' : push to remote repository(github).
+- 'git pull' : pull the latest changes from the remote repository.
+- 'git clone' : clone remote repository into current working directory. 
+
+- create a .gitignore file and add file names & directory(/filename) names you dont want to commit to git into the .gitignore file

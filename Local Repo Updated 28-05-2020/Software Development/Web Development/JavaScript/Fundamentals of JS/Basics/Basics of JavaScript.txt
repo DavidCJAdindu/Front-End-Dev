@@ -1,0 +1,566 @@
+The Fundamentals of JavaScript 
+** Atwood's Law (2007) - "Any application that can be written in JavaScript, will eventually be written in JavaScript"
+
+>> What is JavaScript
+- JavaScript is a high level, interpreted programming language.
+- JavaScript is the programming language of HTML and the Web.
+- JavaScript conforms to the ECMAScript specification.
+- JavaScript is multi-paradigm, you can write your code in many different paradigm, e.g. object-oriented code, functional code, etc..
+- JavaScript runs on the browser as well as on the server (Node.js).
+
+>> Why Learn JavaScript
+- It is the programming langauge of the browser.
+- It can be used to build interactive user interfaces with frameworks like React. 
+- Used in building very fast server side and full stack applications. 
+- Used in mobile development (React Native, NativeScript, Ionic).
+- Used in desktop application development (Electron JS).
+
+>> How to Write JavaScript
+- In HTML, JavaScript code is inserted between <script> and </script> tags.
+Example: 
+<script>
+  var x = 100; 
+  console.log(x)    // Outputs - 100
+</script>
+
+- Scripts can also be placed in external files.
+Example:
+<script src="myScript.js"></script>
+
+
+
+--- JS Output ---
+> Print a 'Hello, World' alert in the browser.
+    alert('Hello, World');
+
+> Print 'Hello, World' to the console.
+    console.log('Hello, World');
+
+> Print 'Hello, World' in the body of a HTML page.
+    document.write('Hello, World');
+
+
+
+--- JS Variables ---
+> Var, Let, Const are use to assign variables.
+
+- var; is used sparingly as it is globally scoped and may cause issues to your code.
+- let; can be used on a vairable that may be reassigned later in the program.
+- const; vaiables assigned using 'const' cannot be reassigned. 
+
+Example:
+let age = 30;
+age = 31
+
+console.log(age);
+// will print '31' because let allows you to change variable
+
+const age = 30;
+age = 31
+
+console.log(age);
+// will print an error, variable is constant cannot be changed
+
+- Rule of Thumb; always use const unless you know your going to reassign the value.
+
+
+
+--- JS Data Types ---
+> Primitive Data Types
+- Types of data that are directly assigned to memory. 
++ String - 'John'
++ Number - 10
++ Boolean - true/false, on/off, yes/no
++ Null - "nothing", the data type of null is an object.
++ Undefined - a variable without a value.
+
+- If it is not a primitive, then it is an object
+- You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+
+
+>> Strings
+- A JavaScript string is zero or more characters written inside quotes.
+
+Example:
+let name = 'David';
+let age = '20';
+
+console.log(name);  // Outputs 'David'
+console.log(age);  // Outputs '20'
+
+-- Concatenation 
+console.log('My name is ' + name + ' and I am ' + age);
+
+-- Template Strings 
+console.log(`My name is ${name} and I am ${age}`); 
+
+-- Print string variables on the console 
+var hello = `My name is ${name} and I am ${age}`;
+console.log(hello); 
+
+
+-> Basic String Methods 
+var str = 'Hello World';
+
+console.log(str.length); 
+// property used to get the length of a string. Output - '11' 
+
+console.log(str.toUpperCase()); 
+// method used to turn string uppercase. Output - 'HELLO WORLD'
+
+console.log(str.toLowerCase()); 
+/ /method used to turn string lowercase. Output - 'hello world'
+
+console.log(str.substring(0, 5)); 
+// method used to get a portion of the string. Output - 'Hello'
+
+
+>> Numbers 
+- JavaScript has only one type of number. Numbers can be written with or without decimals.
+
+Example:
+var x = 3;       // A number without decimals
+var y = 3.14;    // A number with decimals
+
+console.log(x);  // Outputs 3
+console.log(y);  // Outputs 3.14
+
+- Arithmetic operators are used to perform arithmetic on numbers. 
+E.g, (+, -, /, *, %, **)
+
+
+*** WARNING !! ***
+- JavaScript uses the + operator for both addition and concatenation.
+- Numbers are added. Strings are concatenated.
+
+-- If you add two numbers, the result will be a number:
+Example
+var x = 10;
+var y = 20;
+var z = x + y;   // z will be 30 (a number)
+
+-- If you add two strings, the result will be a string concatenation:
+Example
+var x = "10";
+var y = "20";
+var z = x + y;  // z will be 1020 (a string)
+
+-- If you add a number and a string, the result will be a string concatenation:
+Example
+var x = 10;
+var y = "20";
+var z = x + y;  // z will be 1020 (a string)
+
+
+> Numeric Strings
+- JavaScript strings can have numeric content.
+var x = 100;    // x is a number
+var y = "100";  // y is a string
+
+- JavaScript will try to convert strings to numbers in all numeric operations.
+This will work:
+var x = "100";
+var y = "10";
+var z = x / y;  // z will be 10
+
+
+> NaN - Not a Number
+- NaN is a JavaScript reserved word indicating that a number is not a legal number.
+- Trying to do arithmetic with a non-numeric string will result in NaN (Not a Number):
+Example:
+var x = 100 / "Apple";  // x will be NaN (Not a Number)
+
+
+-> Basic Number Methods 
+
+- The toString() method returns a number as a string.
+Example:
+var x = 123;
+x.toString();            // returns 123 from variable x
+(123).toString();        // returns 123 from literal 123
+(100 + 23).toString();   // returns 123 from expression 100 + 23
+
+- Number() can be used to convert JavaScript variables to numbers.
+Example:
+Number(true);          // returns 1
+Number(false);         // returns 0
+Number("10");          // returns 10
+
+
+
+--- JS Arrays ---
+- JavaScript arrays are used to store multiple values in a single variable.
+
+Example: 
+var cars = ["Saab", "Volvo", "BMW"];  
+
+** Spaces and line breaks are not important. A declaration can span multiple lines **
+
+var cars = [
+  "Saab",
+  "Volvo",
+  "BMW"
+];
+console.log(cars); // Outputs - 'Saab', 'Volvo', 'BMW'
+
+> What is an Array?
+- An array is a special variable, which can hold more than one value at a time.
+- If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
+
+  var car1 = "Saab";
+  var car2 = "Volvo";
+  var car3 = "BMW";
+
+- However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
+- The solution is an array!
+- An array can hold many values under a single name, and you can access the values by referring to an index number.
+-In javascript you can also have different data types in the same array.
+
+
+-> Basic Array Properties and Methods
+
+> The length Property
+- The length property of an array returns the length of an array (the number of array elements).
+  console.log(cars.length);   // the length of cars is 3
+
+> Access the Elements of an Array
+- You access an array element by referring to the index number.
+- This statement accesses the value of the first element in cars:
+  console.log(cars[0]);  // Outputs - 'Saab'
+
+> Changing an Array Element
+- This statement changes the value of the first element in cars:
+  cars[0] = "Opel";
+  console.log(cars);  // Outputs -  'Opel', 'Volvo', 'BMW'
+
+> Finding the IndexOf an Array
+- The indexOf() method is used to find out the index of an array value. 
+  console.log(cars.indexOf('Ford'));  // Outputs - '[0]'
+
+> Adding Array Elements
+- The push() method adds a new element to an array (at the end):
+  cars.push("VW");    // adds a new element (VW) to cars
+  console.log(cars); // Outputs - 'Saab', 'Volvo', 'BMW', 'VW'
+
+> Removing Array Elements
+- The pop() method removes the last element from an array:
+  cars.pop();    // removes the last element ("VW") from cars
+  console.log(cars); // Outputs - 'Saab', 'Volvo', 'BMW'
+
+> Shifting Array Elements
+- The shift() method removes the first array element and "shifts" all other elements to a lower index.
+  cars.shift();    // Removes the first element "Saab" from cars
+  console.log(cars); // Outputs - 'Volvo', 'BMW', 'VW'
+
+- The unshift() method adds a new element to an array (at the beginning),and "unshifts" older elements:
+  cars.shift("Ford");    //  // Adds a new element "Lemon" to fruits
+  console.log(cars); // Outputs - 'Ford', 'Volvo', 'BMW', 'VW'
+
+
+
+--- JS Objects ---
+- In real life, a car is an object.
+- A car has properties like weight and color, and methods like start and stop.
+- All cars have the same properties, but the property values differ from car to car.
+- All cars have the same methods, but the methods are performed at different times.
+
+How to create an object - (Person object):
+var person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 30,
+  // the values are written as 'name:value' pairs (name and value separated by a colon).
+
+  // you can also add arrays to object
+  hobbies: ['Livin','Lavish','Ballin','Crypto'],
+
+  // you can also create embedded objects 
+  address: {
+    street: 'downing street',
+    doorNumber: '10',
+    city: 'london',
+    neighbourhood: 'edmonton'
+  }
+};
+
+>> Object Properties
+- Add properties to the object
+person.email = 'lordminister@gmail.com';
+
+- Prints out object to console 
+console.log(person);
+
+- You can access object properties using the dot notation. 
+console.log(person.firstName);  // Outputs - 'John'
+
+- You can access the embedded object value
+console.log(person.address.neighbourhood);  // Outputs - 'Edmonton'
+
+>> Object Methods
+- Objects can also have methods.
+- Methods are actions that can be performed on objects.
+- Methods are stored in properties as function definitions.
+
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  age: 30,
+
+  // method to get the fullName of the object
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+
+};
+
+- You access an object method with the following syntax:
+console.log(person.fullName()); // Outputs - 'John Doe'
+
+
+
+--- JS Loops ---
+- Loops are used to execute a block of code a number of times.
+- Loops are handy, if you want to run the same code over and over again, each time with a different value.
+- Often you would need to do this when working with arrays.
+
+
+>> The For Loop
+- The For Loop is used to loop through a block of code a number of times.
+- The for loop has the following syntax:
+
+  for (statement 1; statement 2; statement 3) {
+    // code block to be executed
+  }
+
++ Statement 1: is executed (one time) before the execution of the code block.
++ Statement 2: defines the condition for executing the code block.
++ Statement 3: is executed (every time) after the code block has been executed.
+
+Example:
+ // for(assignment of the variable; condition; increment)
+    for(let i = 0; i < 10; i++){
+      console.log(i); //prints out loop
+      console.log(`for loop number: ${i}`); //prints out numbers with text
+    }
+
+
+>> The While Loop
+- The While Loop is used to execute a block of code as long as a specified condition is true.
+- The while loop has the following syntax:
+
+  while (condition) {
+  // code block to be executed
+  // increment/decrement
+  }
+
+Example: 
+var i = 0 
+
+while(i < 10) {
+  console.log(i); //prints out loop
+  console.log(`while loop number: ${i}`); //prints out numbers with text
+  i++; //increments loop
+}
+
+- In the example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10.
+- If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.
+
+
+
+--- JS Conditions ---
+- Conditional statements are used to perform different actions based on different conditions.
+
+
+>> The if Statement
+- Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
+
+Syntax:
+if (condition) {
+  //  block of code to be executed if the condition is true
+}
+
+Example: 
+var x = 10;
+
+if (x < 20) {
+  console.log('Hello, World');
+} // Output - 'Hello, World'
+
+
+>> The else Statement
+- Use the else statement to specify a block of code to be executed if the condition is false.
+
+Syntax:
+if (condition) {
+  //  block of code to be executed if the condition is true
+} else {
+  //  block of code to be executed if the condition is false
+}
+
+Example: 
+var x = 30;
+
+if (x < 20) {
+  console.log('Hello, World');
+} else {
+  console.log('Goodbye, World');
+} // Output - 'Goodbye, World'
+
+
+>> The else if Statement
+- Use the else if statement to specify a new condition if the first condition is false.
+
+Syntax:
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+
+Example: 
+var x = 30;
+
+if (x < 20) {
+  console.log('Hello, World');
+} else if (x < 10) {
+  console.log('Goodbye, World');
+} else {
+  console.log('Good, Day');
+} // Output - 'Good, Day'
+
+
+>> Switch Statement
+- The switch statement is used to perform different actions based on different conditions.
+- Use the switch statement to select one of many code blocks to be executed.
+
+Syntax: 
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+
+- This is how it works:
++ The switch expression is evaluated once.
++ The value of the expression is compared with the values of each case.
++ If there is a match, the associated block of code is executed.
++ If there is no match, the default code block is executed.
+
+Example: 
+var color = 'red';
+
+switch(color){
+  case 'red':
+    console.log('color is red');
+    break;
+  case 'green':
+    console.log('color is green');
+    break;
+  case 'blue':
+    console.log('color is blue');
+    break;
+  default:
+    console.log('color is not available');
+} // Output - 'color is red'
+
+
+
+--- JS Functions ---
+- A JavaScript function is a block of code designed to perform a particular task.
+- A JavaScript function is executed when "something" invokes it (calls it).
+
+>> JavaScript Function Syntax
+- A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+- Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+- The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
+- The code to be executed, by the function, is placed inside curly brackets: {}
+
+  function name(parameter1, parameter2, parameter3) {
+    // code to be executed
+  }
+
+- Function parameters are listed inside the parentheses () in the function definition.
+- Function arguments are the values received by the function when it is invoked.
+- Inside the function, the arguments (the parameters) behave as local variables.
+- The code inside the function will execute when "something" invokes (calls) the function.
+
+Example: 
+  function multiply(num1, num2) {
+    console.log(num1 * num2);  
+  }
+
+  multiply(2, 2); // Output - 4
+
+
+
+--- JS BASIC OBJECT ORIENTED PROGRAMMING ---
+- How to Construct and Instantiate an Object
+
+// Constructor function 
+function Person(firstName, lastName, dob) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = dob;
+  
+  // create a date object using the dob property
+  this.dob = new Date(dob);
+
+  // creating methods in the object  
+  this.getBirthYear = function(){
+    return this.dob.getFullYear(); // getFullYear method of date object
+  }
+}
+
+//Instantiate object 
+var person1 = new Person('John','Doe','3-4-1908');
+var person2 = new Person('Mary','Smith','8-6-1850');
+
+//print the person1 object 
+console.log(person1); 
+
+
+>> JavaScript Classes
+- You can also use classes to Construct and Instantiate object in JavaScript
+
+//how to create a class 
+class 'name of class' {
+  constructor(parameters){
+    // class variables 
+  }
+    // class functions 
+}
+
+// a person class 
+class Person{
+  constructor(firstName, lastName, dob) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
+  }
+
+  getBirthYear() {
+    return this.dob.getFullYear();
+  }
+}
+
+//Instantiate object 
+var person1 = new Person('John','Doe','3-4-1908');
+var person2 = new Person('Mary','Smith','8-6-1850');
+
+//print the person1 object 
+console.log(person1); 
+
+- Both ways are acceptable and do the same thing.
+- Although using Classes in know as "syntactic sugar" its probably a better more preferred way of doing things.
+
+
+
+
